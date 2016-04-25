@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "limbo - (2015)"
+date:   2015-10-20 23:04:25 -0400
+categories: jekyll update
+body-class: post-welcome
+---
+<br>
+<p>an uncertain period of awaiting a decision or resolution; an intermediate state or condition.</p>
+<br>
+<div class="img_row">
+<img src="{{ site.baseurl }}/img/limbo.gif">
+</div>
+
+<br>
