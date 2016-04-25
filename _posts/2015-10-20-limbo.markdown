@@ -9,7 +9,7 @@ body-class: post-welcome
 <p>an uncertain period of awaiting a decision or resolution; an intermediate state or condition.</p>
 <br>
 <div class="img_row">
-  <img class="col two" src="/img/limbo.gif"/>
+<img src="{{ site.baseurl }}/img/limbo.gif">
 </div>
 
 <br>
