@@ -4,9 +4,12 @@ title: about
 permalink: /about/
 ---
 
-<div class="img_row">
+<!-- <div class="img_row">
   <img class="col two" src="/img/kae.jpg"/>
-</div>
+</div> -->
+
+<img src="{{ site.baseurl }}/img/kae.jpg">
+
 
 <br>
 
