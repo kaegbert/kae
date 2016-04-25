@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kae</title>
+    <description></description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 Apr 2016 11:11:31 -0400</pubDate>
+    <lastBuildDate>Mon, 25 Apr 2016 11:11:31 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>rye 3/11/16 - sound (2016)</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251595004&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 11 Mar 2016 01:34:25 -0500</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2016/03/11/rye.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/03/11/rye.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>pi / arduino / pD audio effects processor</title>
+        <description>&lt;iframe src=&quot;https://player.vimeo.com/video/149586351&quot; width=&quot;640&quot; height=&quot;400&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This project uses Raspberry Pi, Arduino, and PureData to create a digital multi-fx &quot;pedal&quot; to process sound in real time. The tutorial covers setup with the pi to both PureData and Arduino.&lt;/p&gt;
+
+&lt;p&gt;The end goal is to use PureData (a visual programming language developed for creating multimedia works) to manipulate audio in real time with the help of a usb audio interface. PureData can be easily installed on a Pi and through some setup, an Arduino can be used to control parameters in the PureData patch.&lt;/p&gt;
+
+&lt;p&gt;The main focus of this tutorial is to share my path in integrating PD to run “headlessly” on the Raspberry Pi. Despite a more extensive setup with the pi, the lack of computer peripherals and components opens up many opportunities in creating interactive systems.&lt;/p&gt;
+
+&lt;p&gt;In this post I will jump right into using a USB audio interface with the pi and move into configuring it with pureData. If you still need to setup your pi, you can check out my extensive posts below.&lt;/p&gt;
+
+&lt;h2&gt;pDuino&lt;/h2&gt;
+&lt;p&gt;pDuino is an object created by Hans Christoph Steiner. It handles communication between Arduino microcontrollers and the PureData software. This is important to us because it allows us to integrate electronic components like knobs and switches that can change parameters in our Pd patch. This is what allows us to construct a physical device that can control our patch dynamically.&lt;/p&gt;
+
+&lt;p&gt;The first thing to do is to visit:
+http://at.or.at/hans/pd/objects.html&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download the pDuino object and Firmata firmware.
+Firmata is what will be loaded onto the Arduino and allows PureData complete control in terms of turning on digital and analog inputs on the Arduino board.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Extract the pDuino archive to a known location on your computer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a path in PureData to the archive location so that PureData can reference it and create arduino objects.
+This is done by going to preferences – path – new. You should browse to the folder and apply the changes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;More documentation here: http://en.flossmanuals.net/pure-data/ch060_installing-pduino/&lt;/p&gt;
+
+&lt;h2&gt;Using a USB Audio Interface with Rasberry Pi and PureData&lt;/h2&gt;
+
+&lt;p&gt;Setting up a USB Audio Interface with the pi and using alsamixer to record/play audio from command line.&lt;/p&gt;
+
+&lt;p&gt;Some USB interfaces are compatible with the pi. In my case I am using an Audiobox USB.&lt;/p&gt;
+
+&lt;p&gt;Using alsamixer will allow you to select your sound card instead of the default hdmi.
+to record a file called “rectest” into the current directory…​arecord -D plughw:0 –duration=10 -f cd -vv ~/rectest.wav​&lt;/p&gt;
+
+&lt;p&gt;to play it back (using the soundcards output)…
+aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
+
+&lt;p&gt;​The 0 after plughw: refers to my interface. It was listed as 0 as you can see here…&lt;/p&gt;
+
+&lt;p&gt;alsa&lt;/p&gt;
+
+&lt;p&gt;Installing and Configuring PureData with the pi.&lt;/p&gt;
+
+&lt;p&gt;Whether sharing internet from ethernet or just plugging right in to your router, install PureData. Note: This will only install PD-Vanilla. To use the Arduino controller we will have to install other packages. This will be discussed later…&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get install puredata&lt;/p&gt;
+
+&lt;p&gt;vnc&lt;/p&gt;
+
+&lt;p&gt;You can see in the image above that I am VNCed into my pi and accessing PureData through the gui. Once PD is done installing it will be listed under the sound and video menu on the pi.&lt;/p&gt;
+
+&lt;p&gt;Navigate to preferences in PD and make sure your usb interface is selected as audio input/output.&lt;/p&gt;
+
+&lt;p&gt;pd_audio_settings&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Running PD “headless” on the pi&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In order to get patches running on the pi with no need for monitor/keyboard/mouse there are two things that must be accomplished. The first thing is that you need to create a script that tells the pi to open the Pd patch on start up and the second is handled in the Pd patch itself.&lt;/p&gt;
+
+&lt;p&gt;Cron jobs are perfect for having Pd patches run at startup.&lt;/p&gt;
+
+&lt;p&gt;Once that is complete, you need to add the following string into PD.&lt;/p&gt;
+
+&lt;p&gt;This will delay the patch from loading immediately which is required in order for it to run properly on startup.&lt;/p&gt;
+
+&lt;p&gt;One other tip…&lt;/p&gt;
+
+&lt;p&gt;this is what the post that helped me looked like…&lt;/p&gt;
+
+&lt;p&gt;[loadbang]
+|
+[delay 100]
+|
+[; pd dsp 1(&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Dec 2015 01:34:25 -0500</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/12/23/pi-arduino-audio-processor.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/12/23/pi-arduino-audio-processor.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>just like you imagined - video (2015)</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/148065304&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 11 Dec 2015 15:04:25 -0500</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/12/11/just-like-you-imagined.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/12/11/just-like-you-imagined.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>limbo - (2015)</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;an uncertain period of awaiting a decision or resolution; an intermediate state or condition.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;img_row&quot;&gt;
+  &lt;img class=&quot;col two&quot; src=&quot;/img/limbo.gif&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 23:04:25 -0400</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/10/20/limbo.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/20/limbo.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>basic raspberry pi setup</title>
+        <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;h1&gt;1. Download Raspbian Wheezy&lt;/h1&gt;
+
+&lt;p&gt;This is the webpage where you will find the freshest install of Raspbian Wheezy available. If you have not formatted an SD card for the pi in the past, I recommend looking up a tutorial on how to do it on youtube. You could also use Apple Pi Baker. There are many different examples of how to do this whether you are on Mac, Windows, or Linux. It is quite easy to write a card from the command line.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;raspi-config&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a good time to change your password.&lt;/p&gt;
+
+&lt;p&gt;This is also quite basic but necessary. Adafruit has a really short and sweet tutorial on how to use raspi-config to setup a lot of different functions. If you plan on using ssh, which we do, you will definitely need to enable it here.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Change your Hostname
+How to Change your Hostname.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;sudo nano /etc/hostname
+sudo nano /etc/hosts
+sudo /etc/init.d/hostname.sh
+replace ‘raspberrypi’&lt;/p&gt;
+
+&lt;p&gt;ctrl + x
+sudo reboot&lt;/p&gt;
+
+&lt;p&gt;after restart:
+hostname –fqd
+4. Setup Console Cable (not required)
+How to use a console cable with Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;I recommend the console cable as it is easy to use and you don’t need to setup an extra monitor, keyboard, and mouse to work on the pi.&lt;/p&gt;
+
+&lt;p&gt;cc&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get install screen
+Mac software is built in unless you are using Lion or Mountain Lion.
+Windows – download Putty. Install PL2303 Drivers.&lt;/p&gt;
+
+&lt;p&gt;DO NOT attach the Pi’s USB power adapter. If you would rather power the Pi from your USB power adapter then leave the Red lead from the Serial lead un attached.&lt;/p&gt;
+
+&lt;p&gt;Open up a terminal…&lt;/p&gt;
+
+&lt;p&gt;screen /dev/cu.PL2303-00001004 115200
+​
+Accessing the USB port in the terminal. On a Mac…&lt;/p&gt;
+
+&lt;p&gt;Open the terminal then connect the usb lead.
+Enter screen /dev/cu.PL into the terminal.
+The first time you do this, hit tab to autocomplete the name of your port.
+Add 115200 to then end.
+I find most success when you recall the screen /dev command with the up arrow key. Once you have your usb devices name, you can unplug, close the terminal and repeat the process.&lt;/p&gt;
+
+&lt;p&gt;You can do this with two pis, I have tried. This is where using that Tab command comes in handy.&lt;/p&gt;
+
+&lt;p&gt;If you get a ‘Resource busy’ error, try again but enter the command while the pi is booting up.&lt;/p&gt;
+
+&lt;p&gt;Note: If it is the first time you boot up your pi from a Raspbian image you need to setup raspi-config using an hdmi monitor and keyboard before you use the console cable.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;SSHing into the Pi&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using the terminal you have open with the console cable,  type:&lt;/p&gt;
+
+&lt;p&gt;ifconfig
+This will list the ip address you need to ssh into your pi from your other machine. Open a new terminal window and use the command:&lt;/p&gt;
+
+&lt;p&gt;ssh pi@xxx.xxx.xxx
+In my case I am using an ethernet cable plugged in between my Pi and my ethernet port on my Macbook. Therefore, I will use the eth0 inet addressthat is listed after using ifconfig!&lt;/p&gt;
+
+&lt;p&gt;Once you enter the pi’s password you should be good to go.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TightVNCServer&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;sudo apt-get install tightvncserver
+You are going to need to install tightvncserver on your pi to view the gui (desktop environment) through your main machine. After it is done installing you can run:&lt;/p&gt;
+
+&lt;p&gt;tightvncserver
+and&lt;/p&gt;
+
+&lt;p&gt;vncserver :0 -geometry 1920x1080 -depth 24
+This will create a virtual instance of your pi’s gui.&lt;/p&gt;
+
+&lt;p&gt;You must also download and install tightvncserver on your laptop/computer. You can find a download here.
+I use the java version on my macbook.&lt;/p&gt;
+
+&lt;p&gt;More Documentation on VNC here.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Oct 2015 12:08:25 -0400</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/10/07/pi-setup.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/07/pi-setup.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>untitled - video (2015)</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/140622958&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 13 Sep 2015 22:34:25 -0400</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/09/13/untitled.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/09/13/untitled.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>sifaka - sound (2014)</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;700&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179986740&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 04 Dec 2014 11:56:25 -0500</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2014/12/04/sifaka.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/12/04/sifaka.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
