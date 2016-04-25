@@ -41,13 +41,13 @@ My name is Kevin and I am interested in effective communication, electro-mechani
 
 <p>I was born in Rochester, grew up in Saratoga Springs, and now live in New York. I currently study New Media at Purchase College. I graduated from SUNY Adirondack with an AAS in Media Arts in 2014. My creative background is heavily tied to my fascination with computers and love for sound and music.</p>
 
-
+<!--
  <p></p>
 
 <h1><p>somethings I have done in the past...</p></h1>
 
  <p>Contributor to From Under the Bed, a radio show on WPSR</p>
 
-<p>Had photography featured in the Best of College & High School Photography 2014, a full-color hard cover publication. Over 16,600 student photos were submitted for the contest from the U.S., Canada and around the world.</p>
+<p>Had photography featured in the Best of College & High School Photography 2014, a full-color hard cover publication. Over 16,600 student photos were submitted for the contest from the U.S., Canada and around the world.</p> -->
 
 <!-- I co-founded <a href="http://sextantworks.com/">Sextantworks</a> (formerly Wanderlust Projects). We practice experiential gift design and transgressive placemaking through generosity, location, and intimacy. Sextantworks has been profiled in <a href="http://www.nytimes.com/2014/12/28/nyregion/they-say-art-is-dead-in-new-york-theyre-wrong.html" target="_blank">The New York Times</a>, <a href="http://www.fastcompany.com/3031330/innovation-agents/this-companys-business-plan-includes-trespassing" target="_blank">Fast Company</a>, <a href="http://www.npr.org/event/music/320741516/on-a-magical-mystery-tour-with-hassan-hakmoun" target="_blank">NPR</a>, and <a href="http://www.bloomberg.com/features/2016-design/a/ida-benedetto/" target="_blank">Businessweek</a>. I consulted on the experience design and gifting system for the <a href="http://nightheronspeakeasy.com/" target="_blank">Night Heron Speakeasy</a>, which has been lauded in <a href="http://www.theatlanticcities.com/arts-and-lifestyle/2013/05/water-tower-flair/5639/" target="_blank">the Atlantic</a> and <a href="http://www.newyorker.com/talk/2013/05/27/130527ta_talk_freudenberger?mbid=social_tablet_e&amp;pink=twLeIk" target="_blank">the New Yorker</a>.</p> -->
