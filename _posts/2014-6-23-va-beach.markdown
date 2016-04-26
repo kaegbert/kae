@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "virginia beach - (2014)"
+date:   2014-06-23 23:04:25 -0400
+categories: jekyll update
+body-class: post-welcome
+---
+<br>
+<p></p>
+<br>
+<div class="img_row">
+<img src="{{ site.baseurl }}/img/beach.jpg">
+</div>
+
+<br>
