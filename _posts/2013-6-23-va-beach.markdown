@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "virginia beach - (2013)"
-date:   2013-06-23 23:04:25 -0400
+date:   2013-06-23 21:04:25 -0400
 categories: jekyll update
 body-class: post-welcome
 ---
 <br>
-<p></p>
+<p> </p>
 <br>
 <div class="img_row">
 <img src="{{ site.baseurl }}/img/beach.jpg">
