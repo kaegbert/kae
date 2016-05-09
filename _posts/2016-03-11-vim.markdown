@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "vim tutorial"
+date:   2016-05-08 21:32:25 -0400
+categories: jekyll update
+body-class: post-welcome
+---
+<br>
+<br>
+
+I am deciding to treat this site more like a blog then a portfolio. I am hoping by contributing each day I can grow as developer and get into a specific, specialized workflow.
+
+I just began using a web based application called Hours. I am hoping will keep me more conscientious of my time. Lets see if it sticks.
+
+To truly know something you have to be able to teach it. I am hoping by making small tutorials it will help me commit this to memory.
+
+I have put off learning vim for a really long time and I just don't know why. I am tired of not knowing how to use it, especially when pulling from github.
+
+Anyways, from the terminal type vi to enter vim.
