@@ -16,4 +16,4 @@ To truly know something you have to be able to teach it. I am hoping by making s
 
 I have put off learning vim for a really long time and I just don't know why. I am tired of not knowing how to use it, especially when pulling from github.
 
-Anyways, from the terminal type vi to enter vim.
+Anyways, from the terminal type `vi` to enter vim.
