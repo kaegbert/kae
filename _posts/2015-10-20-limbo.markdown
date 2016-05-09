@@ -6,6 +6,7 @@ categories: jekyll update
 body-class: post-welcome
 ---
 <br>
+<p>an uncertain period of awaiting a decision or resolution; an intermediate state or condition.</p>
 <br>
 <div class="img_row">
 <img src="{{ site.baseurl }}/img/limbo.gif">
