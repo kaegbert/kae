@@ -1,7 +1,7 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: photo
+permalink: /photo/
 ---
 
 <!-- <div class="img_row">
