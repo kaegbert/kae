@@ -8,7 +8,7 @@ permalink: /photo/
   <img class="col two" src="/img/kae.jpg"/>
 </div> -->
 
-<img src="{{ site.baseurl }}/img/kae.jpg">
+<img src="{{ site.baseurl }}/img/beach.jpg">
 
 
 <br>
