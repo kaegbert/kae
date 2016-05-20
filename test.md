@@ -1,7 +1,7 @@
 ---
 layout: page
-title: widget
-permalink: /widget/
+title: test
+permalink: /test/
 ---
 
 <script src="http://kaegbert.github.io/kae/p5.js-widget-master/"></script>
