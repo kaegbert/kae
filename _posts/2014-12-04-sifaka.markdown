@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "sifaka - sound (2014)"
-date:   2014-12-04 12:56:25 -0400
+title:  "sifaka"
+date:   2014-12-04 -0400
 categories: jekyll update
 body-class: post-welcome
 ---
