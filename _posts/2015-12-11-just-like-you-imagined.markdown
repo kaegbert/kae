@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "just like you imagined - video (2015)"
+title:  "just like you imagined"
 date:   2015-12-11 16:04:25 -0400
 categories: jekyll update
 body-class: post-welcome

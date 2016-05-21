@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "untitled - video (2015)"
+title:  "untitled"
 date:   2015-09-13 22:34:25 -0400
 categories: jekyll update
 body-class: post-welcome

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "rye 3/11/16 - sound (2016)"
+title:  "rye 3/11/16"
 date:   2016-03-11 02:34:25 -0400
 categories: jekyll update
 body-class: post-welcome
