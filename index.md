@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -22,10 +21,22 @@ layout: default
 
 </div>
 
+<!-- <blockquote>
+  <p>A sample blockquote.</p>
+
+  <blockquote>
+      <p>Nested blockquotes are
+  also possible.</p>
+    </blockquote> -->
+
+<span style="color: orange"> party time </span>
+
+
+<!-- ![Alt text]({{ site.baseurl }}/img/black.jpg) -->
 
   <body>
 
-
+<!-- <img align="right" src="img/blue.png"> -->
 
 
   </body>
