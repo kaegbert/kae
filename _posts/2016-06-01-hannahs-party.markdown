@@ -9,3 +9,11 @@ body-class: post-welcome
 <br>
 
 party time excellent
+
+*party time excellent*
+
+**party time excellent**
+
+***party time excellent***
+
+```party time excellent```
