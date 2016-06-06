@@ -1,0 +1,32 @@
+body {
+	padding: 20pt;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10pt;
+	line-height: 130%;
+	/*background: #ebfafa;*/
+}
+
+.year {
+	padding-left: 30pt;
+}
+
+.project {
+	padding-left: 10pt;
+}
+
+a {
+	text-decoration: none;
+	color: #444444;
+}
+
+a:hover {
+	font-style: italic;
+	opacity: 50;
+	color: #28a4a4;
+
+}
+
+.sketch {
+	position: absolute;
+	left: 1000pt;
+}

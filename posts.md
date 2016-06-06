@@ -1,15 +1,11 @@
 ---
-layout: default
+layout: page
+title: posts
+permalink: /posts/
 ---
 <div class="home">
 
-<iframe src="http://p5js.org/test/embed.html" width="600px" height="400px"></iframe>
-
-<!-- <img src="{{ site.baseurl }}/img/ghosty.png">
-<br>
-<br> -->
-
-  <!-- <h1 class="page-heading">Posts</h1>
+  <!-- <h1 class="page-heading">Posts</h1> -->
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -21,9 +17,9 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul> -->
-<!--
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
 
@@ -36,7 +32,7 @@ layout: default
     </blockquote> -->
 
 
-<!-- <span style="color: orange"> party time </span> -->
+<span style="color: orange"> party time </span>
 
 
   <body>

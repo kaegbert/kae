@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 13px/1.5 "Verdana", Arial, sans-serif;
+  font: 400 13px/1.5 "Montserrat", Arial, sans-serif;
   color: #111;
   background-color: #fdfdfe;
   -webkit-text-size-adjust: 100%;
@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #A6D69F;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #74bf69; }
   a:hover {
     color: #111;
     text-decoration: underline; }

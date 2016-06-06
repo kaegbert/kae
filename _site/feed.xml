@@ -3,40 +3,11 @@
   <channel>
     <title>kae</title>
     <description></description>
-    <link>http://yourdomain.com/kae/</link>
-    <atom:link href="http://yourdomain.com/kae/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 May 2016 18:19:53 -0400</pubDate>
-    <lastBuildDate>Mon, 23 May 2016 18:19:53 -0400</lastBuildDate>
+    <link>http://kevinegbert.com/</link>
+    <atom:link href="http://kevinegbert.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 06 Jun 2016 14:30:17 -0400</pubDate>
+    <lastBuildDate>Mon, 06 Jun 2016 14:30:17 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
-    
-      <item>
-        <title>vim tutorial</title>
-        <description>&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I am deciding to treat this site more like a blog then a portfolio. I am hoping by contributing each day I can grow as developer and get into a specific, specialized workflow.
-I just began using a web based application called Hours. I am hoping will keep me more conscientious of my time. Lets see if it sticks.&lt;/p&gt;
-
-&lt;!-- ![Alt text](/kae/img/black.jpg) --&gt;
-
-&lt;p&gt;To truly know something you have to be able to teach it. I am hoping by making small tutorials it will help me commit this to memory.&lt;/p&gt;
-
-&lt;p&gt;I have put off learning vim for a really long time and I just don’t know why. I am tired of not knowing how to use it, especially when pulling from github.&lt;/p&gt;
-
-&lt;p&gt;Anyways, from the terminal type &lt;code class=&quot;highlighter-rouge&quot;&gt;vi&lt;/code&gt; to enter vim.&lt;/p&gt;
-
-&lt;p&gt;&lt;img style=&quot;float: left; margin: 0px 15px 15px 0px;&quot; src=&quot;/img/blue.png&quot; width=&quot;100&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 08 May 2016 21:32:25 -0400</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2016/05/08/vim.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2016/05/08/vim.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
       <item>
         <title>rye 3/11/16</title>
@@ -45,8 +16,8 @@ I just began using a web based application called Hours. I am hoping will keep m
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251595004&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 11 Mar 2016 01:34:25 -0500</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2016/03/11/rye.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2016/03/11/rye.html</guid>
+        <link>http://kevinegbert.com/rye</link>
+        <guid isPermaLink="true">http://kevinegbert.com/rye</guid>
         
         
         <category>jekyll</category>
@@ -144,8 +115,8 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 [; pd dsp 1(&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Dec 2015 01:34:25 -0500</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2015/12/23/pi-arduino-audio-processor.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2015/12/23/pi-arduino-audio-processor.html</guid>
+        <link>http://kevinegbert.com/pi-arduino-audio-processor</link>
+        <guid isPermaLink="true">http://kevinegbert.com/pi-arduino-audio-processor</guid>
         
         
         <category>jekyll</category>
@@ -161,8 +132,8 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/148065304&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 11 Dec 2015 15:04:25 -0500</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2015/12/11/just-like-you-imagined.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2015/12/11/just-like-you-imagined.html</guid>
+        <link>http://kevinegbert.com/just-like-you-imagined</link>
+        <guid isPermaLink="true">http://kevinegbert.com/just-like-you-imagined</guid>
         
         
         <category>jekyll</category>
@@ -177,14 +148,14 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 &lt;p&gt;an uncertain period of awaiting a decision or resolution; an intermediate state or condition.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;img_row&quot;&gt;
-&lt;img src=&quot;/kae/img/limbo.gif&quot; /&gt;
+&lt;img src=&quot;/img/limbo.gif&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Oct 2015 23:04:25 -0400</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2015/10/20/limbo.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2015/10/20/limbo.html</guid>
+        <link>http://kevinegbert.com/limbo</link>
+        <guid isPermaLink="true">http://kevinegbert.com/limbo</guid>
         
         
         <category>jekyll</category>
@@ -288,8 +259,8 @@ I use the java version on my macbook.&lt;/p&gt;
 &lt;p&gt;More Documentation on VNC here.&lt;/p&gt;
 </description>
         <pubDate>Wed, 07 Oct 2015 12:08:25 -0400</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2015/10/07/pi-setup.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2015/10/07/pi-setup.html</guid>
+        <link>http://kevinegbert.com/pi-setup</link>
+        <guid isPermaLink="true">http://kevinegbert.com/pi-setup</guid>
         
         
         <category>jekyll</category>
@@ -305,8 +276,8 @@ I use the java version on my macbook.&lt;/p&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/140622958&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sun, 13 Sep 2015 22:34:25 -0400</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2015/09/13/untitled.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2015/09/13/untitled.html</guid>
+        <link>http://kevinegbert.com/untitled</link>
+        <guid isPermaLink="true">http://kevinegbert.com/untitled</guid>
         
         
         <category>jekyll</category>
@@ -322,8 +293,8 @@ I use the java version on my macbook.&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;700&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179986740&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 04 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/kae/jekyll/update/2014/12/04/sifaka.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/kae/jekyll/update/2014/12/04/sifaka.html</guid>
+        <link>http://kevinegbert.com/sifaka</link>
+        <guid isPermaLink="true">http://kevinegbert.com/sifaka</guid>
         
         
         <category>jekyll</category>

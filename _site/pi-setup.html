@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>test</title>
+  <title>basic raspberry pi setup</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://kevinegbert.com/test/">
+  <link rel="canonical" href="http://kevinegbert.com/pi-setup">
   <link rel="alternate" type="application/rss+xml" title="kae" href="http://kevinegbert.com/feed.xml">
 </head>
 
@@ -70,25 +70,102 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">test</h1>
-    <h5 class="post-description"></h5>
+    <h1 class="post-title">basic raspberry pi setup</h1>
+    <p class="post-meta">October 07, 2015</p>
   </header>
 
   <article class="post-content">
-    <script src="https://toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <p></p>
 
-<!-- <script src="http://kaegbert.github.io/kae/p5-widget-master/p5-widget.js"></script> -->
+<h1>1. Download Raspbian Wheezy</h1>
 
-<script type="text/p5">
-function setup() {
-  createCanvas(100, 100);
-}
+<p>This is the webpage where you will find the freshest install of Raspbian Wheezy available. If you have not formatted an SD card for the pi in the past, I recommend looking up a tutorial on how to do it on youtube. You could also use Apple Pi Baker. There are many different examples of how to do this whether you are on Mac, Windows, or Linux. It is quite easy to write a card from the command line.</p>
 
-function draw() {
-  background(255, 0, 200);
-}
-</script>
+<ol>
+  <li>raspi-config</li>
+</ol>
 
+<p>This is a good time to change your password.</p>
+
+<p>This is also quite basic but necessary. Adafruit has a really short and sweet tutorial on how to use raspi-config to setup a lot of different functions. If you plan on using ssh, which we do, you will definitely need to enable it here.</p>
+
+<ol>
+  <li>Change your Hostname
+How to Change your Hostname.</li>
+</ol>
+
+<p>sudo nano /etc/hostname
+sudo nano /etc/hosts
+sudo /etc/init.d/hostname.sh
+replace ‘raspberrypi’</p>
+
+<p>ctrl + x
+sudo reboot</p>
+
+<p>after restart:
+hostname –fqd
+4. Setup Console Cable (not required)
+How to use a console cable with Raspberry Pi.</p>
+
+<p>I recommend the console cable as it is easy to use and you don’t need to setup an extra monitor, keyboard, and mouse to work on the pi.</p>
+
+<p>cc</p>
+
+<p>sudo apt-get install screen
+Mac software is built in unless you are using Lion or Mountain Lion.
+Windows – download Putty. Install PL2303 Drivers.</p>
+
+<p>DO NOT attach the Pi’s USB power adapter. If you would rather power the Pi from your USB power adapter then leave the Red lead from the Serial lead un attached.</p>
+
+<p>Open up a terminal…</p>
+
+<p>screen /dev/cu.PL2303-00001004 115200
+​
+Accessing the USB port in the terminal. On a Mac…</p>
+
+<p>Open the terminal then connect the usb lead.
+Enter screen /dev/cu.PL into the terminal.
+The first time you do this, hit tab to autocomplete the name of your port.
+Add 115200 to then end.
+I find most success when you recall the screen /dev command with the up arrow key. Once you have your usb devices name, you can unplug, close the terminal and repeat the process.</p>
+
+<p>You can do this with two pis, I have tried. This is where using that Tab command comes in handy.</p>
+
+<p>If you get a ‘Resource busy’ error, try again but enter the command while the pi is booting up.</p>
+
+<p>Note: If it is the first time you boot up your pi from a Raspbian image you need to setup raspi-config using an hdmi monitor and keyboard before you use the console cable.</p>
+
+<ol>
+  <li>SSHing into the Pi</li>
+</ol>
+
+<p>Using the terminal you have open with the console cable,  type:</p>
+
+<p>ifconfig
+This will list the ip address you need to ssh into your pi from your other machine. Open a new terminal window and use the command:</p>
+
+<p>ssh pi@xxx.xxx.xxx
+In my case I am using an ethernet cable plugged in between my Pi and my ethernet port on my Macbook. Therefore, I will use the eth0 inet addressthat is listed after using ifconfig!</p>
+
+<p>Once you enter the pi’s password you should be good to go.</p>
+
+<ol>
+  <li>TightVNCServer</li>
+</ol>
+
+<p>sudo apt-get install tightvncserver
+You are going to need to install tightvncserver on your pi to view the gui (desktop environment) through your main machine. After it is done installing you can run:</p>
+
+<p>tightvncserver
+and</p>
+
+<p>vncserver :0 -geometry 1920x1080 -depth 24
+This will create a virtual instance of your pi’s gui.</p>
+
+<p>You must also download and install tightvncserver on your laptop/computer. You can find a download here.
+I use the java version on my macbook.</p>
+
+<p>More Documentation on VNC here.</p>
 
   </article>
 
