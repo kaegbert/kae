@@ -8,12 +8,15 @@
 
  function setup() {
    createCanvas(700, 300);
-   frameRate(10)
+  // frameRate(1)
  }
 
  function draw() {
-   var x = x + .01;
+   x = x + 1;
    background(50);
+  // fill(255,0,0)
+  // ellipse(x,20,100,100)
+   fill(255)
    var splitString = split(oem, delimiter)
    var poem = splitTokens(ezra, ' ');
    var poem2 = splitTokens(ez, ' ');
@@ -21,8 +24,8 @@
 
    textFont('Courier')
    textSize(20);
-   fill(233);
-   for (i = 0; i < poem.length; i = i + 1) {
+   fill(255);
+   for (i = 0; i < poem.length; i = i + 3) {
      text(poem[i], 00, 20 + i * 3);
 
    }
@@ -33,27 +36,27 @@
    // }
    textSize(14);
 
-   for (i = 0; i < poem.length; i = i + 10) {
+   for (i = 0; i < poem.length; i = i + 3) {
      text(poem[i], 340, 40 + i * 3);
 
    }
    // fill(255,100,0)
    textSize(10);
-   for (i = 0; i < poem2.length; i = i + 6) {
-     text(poem2[i], 520, 40 + i * 23);
+   for (i = 0; i < poem2.length; i = i + 10) {
+     text(poem2[i], 520, 40 + i * 3);
 
    }
    textFont('Arial')
 
    textSize(40);
-   for (i = 0; i < poem3.length; i = i + 2) {
+   for (i = 0; i < poem3.length; i = i + 20) {
      text(poem3[i], 660, 25 + i * 10);
 
    }
    // fill(255,100,0)
 
    textSize(10);
-   for (i = 0; i < poem2.length; i = i + 9) {
+   for (i = 0; i < poem2.length; i = i + 10) {
      text(poem2[i], 440, 40 + i * 10);
      // text(poem2[i], 440, 40 + i * 10);
 
@@ -61,29 +64,33 @@
    }
    textFont('Arial')
 
-   textSize(80);
+   textSize(20);
    for (i = 0; i < poem2.length; i = i + 7) {
      text(poem2[i], 0, 40 + i * 3);
 
    }
 
-   if (j < 255) {
+   if (x < 255) {
 
      // fill(j)
-     fill(255)
-     textSize(30);
-     text((splitString[0]), 10, 290)
+     fill(x*10)
+     textSize(20);
+     text((splitString[0]), 70, 290)
        // text((splitString[1]), 10, 293)
-     text((splitString[2]), 10, 293)
-       // text((splitString[3]), 10, 400)
-       // text((splitString[4]), 10, 350)
+     text((splitString[2]), 70, 193)
+      text((splitString[4]), 70, 93)
+       text((splitString[5]), 70, 10)
        // text((splitString[5]), 10, 500)
        // text((splitString[6]), 10, 550)
        // text((splitString[7]), 10, 600)
        // text((splitString[8]), 10, 450)
 
-     //   j = j + 1
-     // } else {
-     //   j = 50
+        j = j + 1
+      } else {
+        j = 50
    }
+   if (x > 100) {
+     x = 0
+   }
+
  }

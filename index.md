@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
 
-<iframe src="http://p5js.org/test/embed.html" width="600px" height="400px"></iframe>
+<iframe src="http://kevinegbert.com/poem/" width="700px" height="300px"></iframe>
 
 <!-- <img src="{{ site.baseurl }}/img/ghosty.png">
 <br>
