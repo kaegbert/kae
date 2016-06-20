@@ -5,6 +5,7 @@ layout: default
 
 <iframe src="http://kevinegbert.com/kae_sigma/" width="700px" height="300px"></iframe>
 
+  <script src="kae_sigma/sketch.js" type="text/javascript"></script>
 <!-- <img src="{{ site.baseurl }}/img/ghosty.png">
 <br>
 <br> -->
