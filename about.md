@@ -25,7 +25,8 @@ My name is Kevin and I am interested in effective communication, electro-mechani
 <p>I was born in Rochester, grew up in Saratoga Springs, and now live in New York. I currently study New Media at Purchase College. I graduated from SUNY Adirondack with an AAS in Media Arts in 2014. My creative background is heavily tied to my fascination with computers and love for sound and music.</p>
 
 [resume](http://kevinegbert.com/resume.pdf).
-<!--
+
+<!-- 
  <p></p>
 
 <h1><p>somethings I have done in the past...</p></h1>
