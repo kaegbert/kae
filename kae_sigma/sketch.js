@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
   // background(70, 200, 120, 3);
-  background(255, 100, 0);
+  background(255, 100, 0, 3);
 
   // noStroke();
   stroke(255);
