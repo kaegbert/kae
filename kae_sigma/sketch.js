@@ -14,14 +14,14 @@ var offset = 200; //offsets to center point
 function setup() {
   createCanvas(900, 300);
   smooth();
- 
+
     // bRecording = false;
     // nElapsedFrames = 0;
     // frameRate(nFramesInLoop);
 }
 
 function draw() {
-  background(100, 0, 170, 3);
+  background(70, 200, 170, 3);
 
   // noStroke();
   stroke(255);
