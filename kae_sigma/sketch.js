@@ -21,7 +21,8 @@ function setup() {
 }
 
 function draw() {
-  background(70, 200, 120, 3);
+  // background(70, 200, 120, 3);
+  background(255, 100, 0);
 
   // noStroke();
   stroke(255);
@@ -92,7 +93,7 @@ var keyPressed = function() {
   if (key == 'A') {
     aVelocity = 23;
   } else if (key == 'B') {
-    background(255, 100, 0);
+    background(10, 100, 250);
   } else if (key == 'C') {
     aAcceleration = -10;
   } else if (key == 'D') {
