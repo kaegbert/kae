@@ -14,6 +14,7 @@ var offset = 200; //offsets to center point
 function setup() {
   createCanvas(900, 300);
   smooth();
+  frameRate(10);
 
     // bRecording = false;
     // nElapsedFrames = 0;
