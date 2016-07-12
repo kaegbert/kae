@@ -25,7 +25,7 @@ function setup() {
 
 function draw() {
   // background(70, 180, 120, 3);
-  background(10, 100, 250);
+  background(140, 70, 0, 3);
 
   // noStroke();
   stroke(255);
