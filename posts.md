@@ -36,7 +36,7 @@ permalink: /posts/
 
 
   <body>
-
+<!-- alright -->
 <!-- <img align="right" src="img/blue.png"> -->
 
 
