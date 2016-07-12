@@ -96,7 +96,7 @@ var keyPressed = function() {
   if (key == 'A') {
     aVelocity = 23;
   } else if (key == 'B') {
-    background(10, 100, 250);
+    background(10, 200, 70, 3);
   } else if (key == 'C') {
     aAcceleration = -10;
   } else if (key == 'D') {
