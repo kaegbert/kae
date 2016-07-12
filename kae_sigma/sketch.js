@@ -15,7 +15,7 @@ function setup() {
   createCanvas(900, 300);
   smooth();
   frameRate(10);
-  background(40, 175, 50);
+  background(127,100,200,70);
 
 
     // bRecording = false;
