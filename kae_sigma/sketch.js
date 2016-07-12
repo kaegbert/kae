@@ -28,7 +28,7 @@ function draw() {
     print(aAcceleration);
 
   // background(70, 180, 120, 3);
-  background(0, 70, 120, 30);
+  background(0, 70, 120, 10);
 
   // noStroke();
   stroke(255);
