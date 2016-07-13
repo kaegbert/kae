@@ -3,7 +3,7 @@
 // var bRecording;
 var x = 0;
 var angle = 0; //start angle
-var aVelocity = -455; //p5 interprets angle in radians but we can
+var aVelocity = -555; //p5 interprets angle in radians but we can
 // var aVelocity= 23; //p5 interprets angle in radians but we can
 var aAcceleration = 0; // use degrees if you convert (see line 15)
 var r = 10; //radius of oscillation
@@ -15,7 +15,7 @@ function setup() {
   createCanvas(900, 300);
   smooth();
   frameRate(10);
-  background(127,100,200,99);
+  background(40, 175, 50);
 
 
     // bRecording = false;
@@ -28,7 +28,7 @@ function draw() {
     print(aAcceleration);
 
   // background(70, 180, 120, 3);
-  background(0, 70, 120, 6);
+  background(0, 70, 120, 3);
 
   // noStroke();
   stroke(255);
