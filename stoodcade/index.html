@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>StoodCade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Thomas Park">
+  <meta name="description" content="StoodCase">
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/mustache.js"></script>
+  <script src="js/jquery.app-folders.js"></script>
+  <script src="js/quantize.js"></script>
+  <script src="js/color-thief.js"></script>
+  
+</head>
+<body>
+  <div id="titleGif">
+    <img src="images/title.gif"/>
+  </div>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+
+      $.ajax({
+        url: "data.json",
+        dataType: 'json',
+        success: function(data) {
+          var games = Mustache.to_html($('#games').html(), data);
+          var details = Mustache.to_html($('#details').html(), data);
+          $('.app-folders-container').html(games+details);     
+          
+          $('.app-folders-container').appFolders({
+            opacity: 0.6,                 // Opacity of non-selected items
+            marginTopAdjust: true,            // Adjust the margin-top for the folder area based on row selected?
+            marginTopBase: 0,               // If margin-top-adjust is "true", the natural margin-top for the area
+            marginTopIncrement: 500,            // If margin-top-adjust is "true", the absolute value of the increment of margin-top per row
+            animationSpeed: 400,            // Time (in ms) for transitions
+            URLrewrite: false,               // Use URL rewriting?
+            URLbase: "./",            // If URL rewrite is enabled, the URL base of the page where used. Example (include double-quotes): "/services/"
+                  internalLinkSelector: ".jaf-internal a"   // a jQuery selector containing links to content within a jQuery App Folder
+          });
+
+          // For each image:
+          // Once image is loaded, get dominant color and palette and display them.
+          $('.app-icon').bind('load', function (event) {
+            var image = event.target;
+            var $image = $(image);
+            var imageSection = $image.closest('.imageSection');
+
+            var colors = getColors(image);
+            styleBackground(colors[1], $image.parent().parent().attr('id'));
+            styleText(colors[1], colors[0],$image.parent().parent().attr('id'));
+          });
+        }
+      });
+    });
+
+  </script>
+
+
+  <div class="app-folders-container">
+    <script id="games" type="text/x-mustache">
+      {{#data}}
+        {{#first}}
+        <div class='jaf-row jaf-container'>
+        {{/first}}
+          <div class='folder' id='{{id}}'>
+            <a href='#'>
+              <img class='app-icon' src='images/{{image}}'>
+              <p class='game-name'>{{game}}</p>
+              <p class='artist-name'>{{artist}}</p>
+            </a>
+          </div>
+        {{#last}}
+          <br class='clear'>
+        </div>
+        {{/last}}
+      {{/data}}
+
+      </div>
+    </script>
+
+    <script id="details" type="text/x-mustache">
+      {{#data}}
+        <div class='folderContent {{id}}'>
+          <div class='jaf-container'>
+            <div>
+              <div class='art-wrap'>
+                <img src='images/{{image}}'>
+              </div>
+              <h2><a href="{{url}}" target="_blank" class="primaryColor">{{album}}</a></h2>
+              <h3 class="secondaryColor">{{artist}}         ({{year}})</h3>
+              <div class='multi'>
+                <ul class="primaryColor">
+                  <li class ="description">{{description}}</li>
+                  <li class="players"> Number of Players: {{players}}</li>
+                  <li id ="startButton" href="{{url}}"><a href="{{url}}" class="primaryColor" ><p>{{start}}</p></a></li>
+                </ul>
+              </div>
+            </div>
+            <br class='clear'>
+          </div>
+          <a href="#" class="close">&times;</a>
+        </div>
+      {{/data}}
+    </script>
+  </div>
+
+  <audio autoplay loop id="audio">
+  <source src="images/song.ogg" type="audio/ogg" />
+    <source src="images/song.mp3" type="audio/mp3" />
+    Your browser does not support HTML5 audio.
+</audio>
+
+
+
+
+
+</body>
+</html>
