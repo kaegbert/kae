@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: post
 title: Special Projects in Tiny Computing
 permalink: /sptc/
----
+--- -->
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 
