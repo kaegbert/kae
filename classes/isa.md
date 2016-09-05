@@ -1,6 +1,6 @@
 ---
-layout: page
-title: isa
+layout: post
+title: Immersive Sound Architecture
 permalink: /isa/
 ---
 
