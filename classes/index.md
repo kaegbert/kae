@@ -11,16 +11,8 @@ permalink: /classes/
 <img src="{{ site.baseurl }}/img/kae.jpg">
 
 
+[SPTC](http://kae.io/sptc).
+
 <br>
-
-
-<!-- <h1>currently.</h1> -->
-<!-- <h2>Empowering each other.</h2> -->
-<!-- <h3> -->
-
- <p>
-
-HOPEFULLY THIS WILL WORK WITH LINKS TO CLASS REPO
-![SPTC](http://kae.io/sptc).
 
 [Smaller](http://25.io/smaller/)
