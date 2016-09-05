@@ -21,4 +21,6 @@ permalink: /classes/
  <p>
 
 HOPEFULLY THIS WILL WORK WITH LINKS TO CLASS REPO
-[SPTC](http://kae.io/sptc).
+![SPTC](http://kae.io/sptc).
+
+[Smaller](http://25.io/smaller/)
