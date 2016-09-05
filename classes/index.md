@@ -11,8 +11,12 @@ permalink: /classes/
 <img src="{{ site.baseurl }}/img/kae.jpg">
 
 
-[SPTC](http://kae.io/sptc).
+[Special Projects in Tiny Computing - Fall 2016](http://kae.io/sptc).
+
+[Dark Ecology Studio - Fall 2016](http://kae.io/des).
+
+[Immersive Sound Architecture - Fall 2016](http://kae.io/isa).
 
 <br>
 
-[Smaller](http://25.io/smaller/)
+<!-- [Smaller](http://25.io/smaller/) -->

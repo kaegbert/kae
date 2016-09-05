@@ -1,7 +1,7 @@
 ---
 layout: page
-title: sptc
-permalink: /sptc/
+title: des
+permalink: /des/
 ---
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
