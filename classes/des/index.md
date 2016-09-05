@@ -2,6 +2,7 @@
 layout: post
 title: Dark Ecology Studio
 permalink: /classes/des
+exclude: true
 ---
 
 
