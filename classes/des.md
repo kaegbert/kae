@@ -1,8 +1,8 @@
 ---
 layout: post
-permalink: /sptc/
+permalink: /des/
 ---
-#Special Projects in Tiny Computing
+#Dark Ecology Studio
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 
