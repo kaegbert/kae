@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /des/
+markdown: kramdown
 ---
 #Dark Ecology Studio
 
