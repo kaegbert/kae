@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: post
 title: Immersive Sound Architecture
 permalink: /isa/
----
+--- -->
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 

@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: post
 title: Dark Ecology Studio
 permalink: /des/
----
+--- -->
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 
