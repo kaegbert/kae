@@ -10,6 +10,7 @@ permalink: /classes/
 <!--
 <img src="{{ site.baseurl }}/img/kae.jpg"> -->
 
+#party time
 
 [Special Projects in Tiny Computing - Fall 2016](http://kae.io/sptc)
 
