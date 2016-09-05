@@ -8,8 +8,8 @@ permalink: /classes/
   <img class="col two" src="/img/kae.jpg"/>
 </div> -->
 
-<!-- <img src="{{ site.baseurl }}/img/kae.jpg">
- -->
+<img src="{{ site.baseurl }}/img/kae.jpg">
+
 
 <br>
 
@@ -20,6 +20,5 @@ permalink: /classes/
 
  <p>
 
-[SPTC](http://kae.io/sptc.md).
-
-[resume](http://kae.io/resume.pdf).
+HOPEFULLY THIS WILL WORK WITH LINKS TO CLASS REPO
+[SPTC](http://kae.io/sptc).
