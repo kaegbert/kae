@@ -2,7 +2,7 @@
 layout: post
 permalink: /sptc/
 ---
-#Special Projects in Tiny Computing
+**Special Projects in Tiny Computing**
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 
