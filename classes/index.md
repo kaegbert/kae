@@ -13,7 +13,7 @@ permalink: /classes/
 
 [Special Projects in Tiny Computing - Fall 2016](http://kae.io/sptc).
 
-[Dark Ecology Studio - Fall 2016](http://kae.io/des).
+[Dark Ecology Studio - Fall 2016](http://kae.io/classes/des).
 
 [Immersive Sound Architecture - Fall 2016](http://kae.io/isa).
 
