@@ -1,6 +1,6 @@
 ---
-layout: page
-title: sptc
+layout: post
+title: Special Projects in Tiny Computing
 permalink: /sptc/
 ---
 

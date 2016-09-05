@@ -1,6 +1,6 @@
 ---
-layout: page
-title: des
+layout: post
+title: Dark Ecology Studio
 permalink: /des/
 ---
 
