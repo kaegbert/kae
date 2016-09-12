@@ -11,12 +11,10 @@ Shannon Mattern's Infrasture Tourism is insightful look at how we can create pro
 
 Shes goes on to explain how mapping infrastructure can dramatically inform how we design cities, manage resources, and network with each other. She cites Lisa Parks in saying that "it is our duty to be aware of systems that surround us." I think this is extremely important and typically goes unnoticed.
 
-Despite some criticism to how some art projects may not yield any real answers to the problems they seek to expose, Mattern explains that these projects can cause people to be more self-reflexive, which could lead to large scale changes as a population. 
+Despite some criticism to how some art projects may not yield any real answers to the problems they seek to expose, Mattern explains that these projects can cause people to be more self-reflexive, which could lead to large scale changes as a population.
 
 
 
-
-Anthropocen Fever by Jedediah Purdy.
 
 ##Water Infrastructure Research and Questions
 
