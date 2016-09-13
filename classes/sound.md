@@ -10,6 +10,6 @@ permalink: /sound/
 
 <br>
 
-PureData / Processing Theremins
+<!-- PureData / Processing Theremins -->
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/XOPjLZlwPA8" frameborder="0" allowfullscreen></iframe>

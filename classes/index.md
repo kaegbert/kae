@@ -18,6 +18,8 @@ title: classes
 
 [Immersive Sound Architecture - Fall 2016](http://kevinegbert.com/isa)
 
+**Past classes...**
+
 [Introduction to Sound - Fall 2014](http://kevinegbert.com/sound)
 
 <br>

@@ -1,8 +1,6 @@
 ---
 layout: page
 permalink: /still/
-title: still
-
 ---
 
 <!-- <div class="img_row">
@@ -25,7 +23,7 @@ title: still
 
 <img src="{{ site.baseurl }}/img/santanoni.jpg">
 
-<img src="{{ site.baseurl }}/img/fireflower.jpg"> 
+<img src="{{ site.baseurl }}/img/fireflower.jpg">
 
 <img src="{{ site.baseurl }}/img/black.jpg">
 
