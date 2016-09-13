@@ -79,7 +79,8 @@ This is also a good time to change your password.
 
 ### 4. SSH using console cable.
 
-https://vimeo.com/181697787
+<iframe src="https://player.vimeo.com/video/181697787 width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 SSH'ing using the USB console cable is **by far my favorite way to work on the pi.** It looks really lame, but looks can be deceiving. Forget having a 5 volt charger, USB keyboard, an HDMI monitor... You can work on your pi right on a laptop just by connecting a USB cable.
 
@@ -87,7 +88,7 @@ SSH'ing using the USB console cable is **by far my favorite way to work on the p
 
 The first thing you are going to have to do is download the correct drivers for the USB console cable.
 
-####For Mac users:
+For Mac users:
 
 The adafruit tutorial webpage has a big green box that leads to a download of the driver for the console cable. **It did not work for me.** I am on OS X El Capitan 10.11.6 and I downloaded the appropriate driver [here](http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=229&pcid=41).
 
@@ -131,38 +132,4 @@ As outlined in the Adafruit tutorial, the command ```screen /dev/cu.PL2303-00001
 
 **For some reason, (note sure if this is a change associated with El Capitan or not) accessing the specific port is unavailable on my installation. I am going to look into this...**
 
-AKA...you may have to try both the ```screen /dev/cu.usbserial 115200``` command and the ```screen /dev/cu.PL``` (Press tab) ```115200```
-
-```
-Log details...
-
-Friday
-
-3:20 to 3:40pm: Creating a framework for this week's log. Aiming to cover basic pi setup and supplementary information for the Adafruit Learning Raspberry Pi tutorials.
-st
-3:40 to 4:00pm: Using (http://25.io/mou/) to format the log. Working on section 1 which outlines writing an an installation of Raspbian to an SD card.
-
-4:00 to 4:20pm: Took screen recording of booting up a pi using serial connection. Took screen shots to add to log.
-
-4:20 to 4:40pm: Doing some illustrations to make hardware setup more clear. Eating taquitos.
-
-Saturday
-
-7:30 to 7:50pm: Working on section #3 which outlines the raspi-config command.
-
-7:50 to 8:10pm: Beginning section #4 which details ssh'ing using a serial cable connection.
-
-8:10 to 8:30pm: Continuing with details on section #4. A lot of opportunity for small errors here so I am trying to be as detailed as possible.
-
-Monday
-
-1:30pm to 1:50pm: Looking through old bookmarks to find VNC tutorial and java applet.
-
-1:30pm to 2:15pm: Spent an absurd amount of time researching into VHF/UHF tv broadcasting? I just aquired an old Panasonic tv and was brainstorming ways to use a Pi to broadcast tv frequencies? This may just be silly... http://www.instructables.com/id/How-To-Save-Analog-TV/?ALLSTEPS
-
-10:00pm - 11:00pm: Installing brew. Interested in using wget.
-
-Tuesday
-
-5:00pm - 5:20pm: Uploading video and images for log.
-```
+You may have to try both the ```screen /dev/cu.usbserial 115200``` command and the ```screen /dev/cu.PL``` (Press tab) ```115200```
