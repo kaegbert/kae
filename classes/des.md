@@ -3,7 +3,7 @@ layout: post
 permalink: /des/
 markdown: kramdown
 ---
-**Dark Ecology Studio
+**Dark Ecology Studio**
 
 *Week 1 Reading Response
 
