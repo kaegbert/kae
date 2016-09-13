@@ -4,7 +4,7 @@ permalink: /sptc/
 ---
 **Special Projects in Tiny Computing**
 
-###Week #1
+***Week #1***
 
 <img class="alignnone size-medium wp-image-46" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/pi_setup-300x300.jpg" alt="pi_setup" width="300" height="300" />
 
