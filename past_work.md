@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /past_work/
-title: past work
+permalink: /still/
+title: still
 
 ---
 
@@ -17,7 +17,20 @@ title: past work
 
 <img src="{{ site.baseurl }}/img/cookie2.png">
 
-<img src="{{ site.baseurl }}/img/cookie1.png">
+<img src="{{ site.baseurl }}/img/beach.jpg">
+
+<img src="{{ site.baseurl }}/img/blue.png"> -->
+
+<img src="{{ site.baseurl }}/img/pup.jpg"> -->
+
+<img src="{{ site.baseurl }}/img/santanoni.jpg">
+
+<img src="{{ site.baseurl }}/img/flower.jpg"> -->
+
+<img src="{{ site.baseurl }}/img/black.jpg">
+
+<img src="{{ site.baseurl }}/img/giant.jpg">
+
 
 
 
