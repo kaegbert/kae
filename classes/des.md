@@ -3,7 +3,7 @@ layout: post
 permalink: /des/
 markdown: kramdown
 ---
-**Dark Ecology Studio**
+***Dark Ecology Studio***
 
 *Week 1 Reading Response*
 
@@ -13,7 +13,7 @@ Shes goes on to explain how mapping infrastructure can dramatically inform how w
 
 Despite some criticism to how some art projects may not yield any real answers to the problems they seek to expose, Mattern explains that these projects can cause people to be more self-reflexive, which could lead to large scale changes as a population.
 
-##Water Infrastructure Research and Questions
+*Water Infrastructure Research and Questions*
 
 
 After visiting and documenting locations on campus related to Purchase's water supply, Kim and I looked at a proposal that details information surrounding the Senior Housing on the campus. The proposal outlines water supply, sewer, and stormwater management systems.
