@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /classes/
-title: classes
+permalink: /past_work/
+title: past work
 
 ---
 
