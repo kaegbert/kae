@@ -19,4 +19,17 @@ PureData / Processing Theremins
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/XOPjLZlwPA8" frameborder="0" allowfullscreen></iframe>
 
+
+<img src="{{ site.baseurl }}/img/SNAIL.png">
+
+<img src="{{ site.baseurl }}/img/modular.png">
+
+<img src="{{ site.baseurl }}/img/cookie2.png">
+
+<img src="{{ site.baseurl }}/img/cookie1.png">
+
+
+
+
+
 <!-- [Smaller](http://25.io/smaller/) -->
