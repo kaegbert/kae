@@ -16,7 +16,7 @@ title: classes
 
 [Dark Ecology Studio - Fall 2016](http://kevinegbert.com/des)
 
-[Immersive Sound Architecture - Fall 2016](http://kevinegbert.come/isa)
+[Immersive Sound Architecture - Fall 2016](http://kevinegbert.com/isa)
 
 <br>
 

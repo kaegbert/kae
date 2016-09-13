@@ -5,7 +5,7 @@ markdown: kramdown
 ---
 **Dark Ecology Studio**
 
-*Week 1 Reading Response
+*Week 1 Reading Response*
 
 Shannon Mattern's Infrasture Tourism is insightful look at how we can create projects that empower users or participants to analyze infrastructure. She details a trip where she "visited the internet" by traveling around Lower Manhattan and looking at where network server's physically exist. She talks about how wirelessness may arguably create more wires than anything, at that the feeling of being wireless is really an illusion. She uses this example as a jumping off point as to how we can start reconsidering our relationship to large scale infrastructure.
 
