@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /classes/
+title: classes
+
 ---
 
 <!-- <div class="img_row">
@@ -9,7 +11,6 @@ permalink: /classes/
 <!--
 <img src="{{ site.baseurl }}/img/kae.jpg"> -->
 
-```party time```
 
 [Special Projects in Tiny Computing - Fall 2016](http://kevinegbert.com/sptc)
 
