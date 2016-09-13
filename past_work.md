@@ -17,6 +17,6 @@ title: past work
 
 PureData / Processing Theremins
 
-<iframe width="600" height="600" src="https://www.youtube.com/embed/XOPjLZlwPA8" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/XOPjLZlwPA8" frameborder="0" allowfullscreen></iframe>
 
 <!-- [Smaller](http://25.io/smaller/) -->
