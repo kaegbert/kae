@@ -4,7 +4,7 @@ permalink: /isa/
 ---
 #Immersive Sound Architecture
 
-<img src="{{ site.baseurl }}/img/beach.jpg">
+<!-- <img src="{{ site.baseurl }}/img/beach.jpg">
 
 
 <!-- <br>
@@ -38,4 +38,4 @@ permalink: /isa/
 <img src="{{ site.baseurl }}/img/giant.jpg">
 
 
-<br>
+<br> -->
