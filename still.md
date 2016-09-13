@@ -19,13 +19,13 @@ title: still
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 
-<img src="{{ site.baseurl }}/img/blue.png"> -->
+<img src="{{ site.baseurl }}/img/blue.png">
 
-<img src="{{ site.baseurl }}/img/pup.jpg"> -->
+<img src="{{ site.baseurl }}/img/pup.jpg">
 
 <img src="{{ site.baseurl }}/img/santanoni.jpg">
 
-<img src="{{ site.baseurl }}/img/flower.jpg"> -->
+<img src="{{ site.baseurl }}/img/fireflower.jpg"> 
 
 <img src="{{ site.baseurl }}/img/black.jpg">
 
