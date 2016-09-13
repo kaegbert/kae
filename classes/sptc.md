@@ -79,8 +79,8 @@ This is also a good time to change your password.
 
 ### 4. SSH using console cable.
 
-<iframe src="https://player.vimeo.com/video/181697787 width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<iframe src="https://player.vimeo.com/video/181697787" width="640" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/181697787">pi_login</a> from <a href="https://vimeo.com/kevinegbert">kevin egbert</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 SSH'ing using the USB console cable is **by far my favorite way to work on the pi.** It looks really lame, but looks can be deceiving. Forget having a 5 volt charger, USB keyboard, an HDMI monitor... You can work on your pi right on a laptop just by connecting a USB cable.
 
