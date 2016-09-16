@@ -14,7 +14,6 @@ url: "http://kevinegbert.com" # the base hostname & protocol for your site
 twitter_username: kaegbert
 github_username:  kaegbert
 permalink: /:title
-
 # Build settings
 markdown: kramdown
 port: 4000
