@@ -1,0 +1,37 @@
+
+#sign{
+	width: 100%;
+	height: 8%;
+	position:fixed;
+	background-color: blue;
+	display: block;
+	font-size: 144%;
+	color: white;
+	z-index: -5;
+}
+
+
+
+
+#genre{
+	width: 80%;
+	height: auto;
+	position: relative;
+	float: center;
+	text-align: center;
+	display: block;
+	align-items: center;
+	top: 4%;
+	padding: 3%;
+}
+
+#logo{
+
+	height: 8%;
+	position:fixed;
+	top: 10%;
+	display: block;
+	font-size: 144%;
+	color: white;
+	z-index: -5;
+}

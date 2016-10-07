@@ -3,6 +3,8 @@ layout: default
 ---
 <div class="home">
 
+<meta name="google-site-verification" content="tZbMPOjjx5MMYuGdTXja4pkMsHFuJzeIC42ABwwNRfQ" />
+
 <!-- <iframe src="http://kevinegbert.com/kae_sigma/" width="700px" height="300px"></iframe> -->
 
 <img src="{{ site.baseurl }}/img/limbo.gif" width="960">
