@@ -14,14 +14,19 @@ Because of this, Purdy and other writers argue that the contrast between people 
 
 I think this reading was a really interesting perspective to look at right in the start to this course. Before reading, I was not aware of this idea, the idea of a new epoch. The first step in progress is recognition of a problem. Rather than continuing to romanticize or mysticize our relationship to nature we have to recognize that we are apart of it, and our actions directly effect the world we inhabit.
 
+<img src="{{ site.baseurl }}/img/1.jpg">
+
 *Week 2 Reading Response*
 *Shannon Mattern, 2014 Infrasture Tourism*
+
 
 Shannon Mattern's Infrasture Tourism is insightful look at how we can create projects that empower users or participants to analyze infrastructure. She details a trip where she "visited the internet" by traveling around Lower Manhattan and looking at where network server's physically exist. She talks about how wirelessness may arguably create more wires than anything, and that the feeling of being wireless is really an illusion. She uses this example as a jumping off point as to how we can start reconsidering our relationship to large scale infrastructure.
 
 She goes on to explain how mapping infrastructure can dramatically inform how we design cities, manage resources, and network with each other. She cites Lisa Parks in saying that "it is our duty to be aware of systems that surround us." I think this is extremely important and typically goes unnoticed.
 
 Despite some criticism to how some art projects may not yield any real answers to the problems they seek to expose, Mattern explains that these projects can cause people to be more self-reflexive, which could lead to large scale changes as a population.
+
+<img src="{{ site.baseurl }}/img/2.jpg">
 
 *Week 3 Reading Response*
 *Elkins, James, How to Look at a Culvert*
@@ -30,7 +35,7 @@ Despite some criticism to how some art projects may not yield any real answers t
 
 Elkin's quote above I think perfectly sums up his research on the culvert. He describes in detail through mathematics, formulas, and figures just how precise engineers have to be when calculating and building these structures. He also mentions just how quickly we can see the effects of hastily constructed infrastructure in America.
 
-He goes on to mention that they provide a closer look in to the landscapes they inhabit. Something that is not as common now that many rivers are hidden underground. 
+He goes on to mention that they provide a closer look in to the landscapes they inhabit. Something that is not as common now that many rivers are hidden underground.
 
 
 *Week 4 Reading Response*
