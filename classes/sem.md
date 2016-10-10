@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /sem/
+permalink: /seminar/
 ---
 ***Senior Seminar**
 
