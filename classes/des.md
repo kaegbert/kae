@@ -5,6 +5,9 @@ markdown: kramdown
 ---
 ***Dark Ecology Studio***
 
+<img src="{{ site.baseurl }}/img/3.png">
+
+
 *Week 1 Reading Response*
 *Jedediah Purdy, 2015, Anthropocene Fever*
 
@@ -37,6 +40,7 @@ Elkin's quote above I think perfectly sums up his research on the culvert. He de
 
 He goes on to mention that they provide a closer look in to the landscapes they inhabit. Something that is not as common now that many rivers are hidden underground.
 
+<img src="{{ site.baseurl }}/img/4.JPG">
 
 *Week 4 Reading Response*
 *Ursula, Franklin. Real World of Technology. (1989). Chapter 1*
