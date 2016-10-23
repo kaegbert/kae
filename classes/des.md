@@ -48,6 +48,16 @@ He goes on to mention that they provide a closer look in to the landscapes they 
 Ursula Franklin explains that technology is a system that entails far more than the sum of its parts. She states that "technology involves organization, procedures, symbols, new words, equations, and, most of all, a mindset." She explains that over time technology muddles or sometimes destroys what has become a traditional social compass. She argues that global reformation is necessary in order to obtain some sense of security while at odds with wide-scale technological progression. She goes on to mention the difference between holistic and prescriptive technologies by using Chinese bronze-casting and the assembly line as examples.
 
 I found just this first chapter extremely captivating. She finds a way of talking about such a large and general idea and breaking it down in to specific examples where context becomes apparent. I think it is very interesting that she wrote this in 1989. Just in the past decade we have seen some many emergent technologies shape how individuals are "supposed" to act in society all while shifting what is acceptable.
-<!--
+
 *Week 5 Reading Response*
-*Winner, L., 1986, Do Artifacts have Politics? The whale and the reactor: a search for limits in an age of high technology. Chicago, University of Chicago Press, 19-39* -->
+*Winner, L., 1986, Do Artifacts have Politics? The whale and the reactor: a search for limits in an age of high technology. Chicago, University of Chicago Press, 19-39*
+
+
+
+*Week 6 Response*
+*Field Trips*
+
+After visiting the Daniel P. Thomas Material Recovery Facility and the Westchester Wastewater Treatment Plant I have had a lot to think about. I have been spending more time thinking about where exactly garbage and sewage go. The recylcing facility was smaller than I thought it would be, but still processed a lot of waste. I think one of the most interesting parts of the the recycling plant is that they sell the reusable material at market rate. This is a direct contrast to the Westchester Wastewater Treatment Plant who has to pay a service to pick up and sell their "cake," or solid waste. I found the water treatment plant to be quite beautiful. Despite the odors, I had a feeling that the process being undertaken was beneficial to the people of Westchester and the environment as a whole.
+I'm not sure I can say the same about Indian Point.
+
+In regards to our trip to the power plant, I left that day feeling melancholic but hopeful. There was something really unsettling about all of the security measures set in place. All of this was juxtaposed with this promise of extremely efficient and "clean" energy. I think the most interesting point in the trip was the fuel storage pool. It was really amazing to be so close to used nuclear fuel when really there was only about forty feet of water protecting us from it. I also found it amazing that the control room is all analog hardware to protect the system from hacking and remote access. It's strange that a lot of the used fuel is just sitting outside in containers. I think it has to do a little bit with the stigma surrounding nuclear power perpetuated by the media, but it was such a strange experience to be inside of the plant. I found myself baffled by the fact that humans had created this system and that they have the responsibility to  take preventive action to negate any attacks or disasters.
