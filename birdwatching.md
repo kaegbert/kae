@@ -10,6 +10,8 @@ As technology continues to develop to be more discrete and more convenient, ther
 
 <p>The headpiece utilizes two shotgun microphones interfaced with a handheld audio recorder. The microphones are placed at ear distance apart to create three dimensional stereo audio recordings. Binoculars are attached to a beer drinking helmet that allows for hands free magnification. Hot glued leaves conceal you when you need it most. </p>
 
+<br>
+
 
 <img src="{{ site.baseurl }}/img/IB_1.gif">
 <br>
