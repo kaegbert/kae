@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>kae</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/sptc/">
+  <link rel="alternate" type="application/rss+xml" title="kae" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">kae</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+           
+             <a class="page-link" href="/about/">about</a>
+            
+          
+        
+          
+           
+             <a class="page-link" href="/birdwatching">immersive birdwatching</a>
+            
+          
+        
+          
+           
+             <a class="page-link" href="/blog/">blog</a>
+            
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+             <a class="page-link" href="/classes/">classes</a>
+            
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+          
+           
+          
+        
+      </div>
+    </nav>
+
+    <ul>
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+
+  </div>
+
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+    <p class="post-meta"></p>
+  </header>
+
+  <article class="post-content">
+    <p><strong>Special Projects in Tiny Computing</strong></p>
+
+<p><strong><em>Week #1</em></strong></p>
+
+<p><img class="alignnone size-medium wp-image-46" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/pi_setup-300x300.jpg" alt="pi_setup" width="300" height="300" /></p>
+
+<p>Using the <a href="https://learn.adafruit.com/series/learn-raspberry-pi">Learning Raspberry Pi Adafruit tutorials</a> we can get an awesome boiler plate setup going for our pi’s. A quick note… I use a Mac computer so most of my insight will be about using the Pi with a mac. That being said, just about everything is the same. There are definitely some exceptions, but most of this well documented online.</p>
+
+<p>First things first, we need an operating system…</p>
+
+<h3 id="1-download-raspbian-installing-an-image-of-raspbian">1. Download Raspbian /Installing an image of Raspbian.</h3>
+
+<p>As Steve mentioned in class, we are going to use Raspbian. <a href="https://en.wikipedia.org/wiki/Raspbian">Raspbian</a> is a play on <a href="https://en.wikipedia.org/wiki/Debian">Debian</a>, a popular form of <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>.</p>
+
+<p><a href="https://www.raspberrypi.org/downloads/raspbian/">The latest image of Raspbian is available here</a>.</p>
+
+<p>You can write this image to your SD card through the Terminal/command line or using a 3rd party software that uses a Graphical User Interface. There are many different examples of how to do this whether you are on Mac, Windows, or Linux.</p>
+
+<p>If you have not formatted an SD card for the pi in the past, I recommend looking up some video tutorials.</p>
+
+<p><strong><em>If you are nervous about overwriting your main computer’s hard drive you may want to use the graphical approach…</em></strong></p>
+
+<p>I like to use a software called <a href="http://www.tweaking4all.com/software/macosx-software/macosx-apple-pi-baker/"><strong>ApplePi Baker!</strong></a>.</p>
+
+<p><em>The download is at the bottom of the page…</em></p>
+
+<p><img src="http://kevinegbert.com/applepibaker.png" alt="new" /></p>
+
+<p>Using ApplePi Baker or any similar software, you can use the SD card adapter to insert your microSD card into your main machine. Select the card in the Pi-Crust window and select your newly download version of Raspbian in the Pi-Ingredients : IMG Recipe section using the … symbol.</p>
+
+<p>I recommend you save the downloaded version of Raspbian somewhere on your computer or an external hard drive. This could save you time later if you need to do a clean install. Downloading even a few gigabytes will take some time.</p>
+
+<p>After you select a recipe, your IMG will be written to the SD card. This can take some time so do something else or patiently look at the red progress bar…</p>
+
+<h3 id="2-booting-up-the-badboy-for-the-first-time">2. Booting up the badboy for the first time.</h3>
+
+<p>So, now that you have an operating system written to your SD card you can boot up the mini computer.</p>
+
+<p>To boot up your Pi you will need a few things…</p>
+
+<ol>
+  <li>5v Micro USB charger. (Almost any phone micro USB charger will work)</li>
+  <li>HDMI monitor/tv/display and an HDMI cable.</li>
+  <li>USB keyboard</li>
+  <li>USB mouse (optional… kind of…)</li>
+  <li>Ethernet cable (also optional… we will get to this later…)</li>
+</ol>
+
+<p>Find a tv or monitor with an HDMI port and connect the hdmi cable between the display and the pi. Connect your USB keyboard and mouse, then plug the pi into the 5v charger to a power strip.</p>
+
+<p>You should see a rainbow load screen…</p>
+
+<p>You will then be prompted for a user name, which on a new installation of Raspbian, will be <strong>pi</strong>.</p>
+
+<p>The password will be <strong>raspberry</strong>.</p>
+
+<h3 id="3-first-time-configuration">3. First time configuration.</h3>
+
+<p>This section will refer the <a href="https://learn.adafruit.com/adafruits-raspberry-pi-lesson-2-first-time-configuration">Adafruit First Time Configuration tutorial.</a></p>
+
+<p>Once you logged in to your pi, you can get familiar with easy commands like <strong>ls</strong> and <strong>cd</strong>.</p>
+
+<p>One of the first things you need to do before doing anything more advanced is to use the command:</p>
+
+<p><code class="highlighter-rouge">sudo raspi-config</code></p>
+
+<p>The command will you bring to a screen that looks like the <em>bios</em> screen on another computer.</p>
+
+<p><strong>Follow the adafruit tutorial above.</strong> This is really important and the tutorial is really easy to follow. Without it, you won’t be able to SSH, to use the full size of your SD card, you won’t be able to use a camera, and you may have some trouble with keys on your keyboard!</p>
+
+<p>This is also a good time to change your password.</p>
+
+<h3 id="4-ssh-using-console-cable">4. SSH using console cable.</h3>
+
+<iframe src="https://player.vimeo.com/video/181697787" width="640" height="410" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<p><a href="https://vimeo.com/181697787">pi_login</a> from <a href="https://vimeo.com/kevinegbert">kevin egbert</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p>SSH’ing using the USB console cable is <strong>by far my favorite way to work on the pi.</strong> It looks really lame, but looks can be deceiving. Forget having a 5 volt charger, USB keyboard, an HDMI monitor… You can work on your pi right on a laptop just by connecting a USB cable.</p>
+
+<p><a href="https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable">This adafruit tutorial outlines it quite well.</a></p>
+
+<p>The first thing you are going to have to do is download the correct drivers for the USB console cable.</p>
+
+<p>For Mac users:</p>
+
+<p>The adafruit tutorial webpage has a big green box that leads to a download of the driver for the console cable. <strong>It did not work for me.</strong> I am on OS X El Capitan 10.11.6 and I downloaded the appropriate driver <a href="http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=229&amp;pcid=41">here</a>.</p>
+
+<p>I used to be on Lion though and even though the drivers are different, the concept is the same. You will have to restart your computer after the download.</p>
+
+<p>After the restart you should open up your <strong>Terminal application.</strong></p>
+
+<p><em>A little note on the Terminal…</em></p>
+
+<p>The terminal / command prompt / command line are all different names for the text based way of operating your computer. Before operating systems like Apple and Windows, there were not GUIs. We can still use our computer without a GUI by opening up the Terminal.</p>
+
+<p>If you would like to see… once you open your Terminal application… Type the command
+<code class="highlighter-rouge">ls</code>.
+The command will <strong>list</strong> what is in your home directory. Whether your on your Pi or Mac, <code class="highlighter-rouge">ls</code> is a command that works the same way.</p>
+
+<p>I want to make this clear for two reasons…</p>
+
+<ol>
+  <li>When you enter the command to SSH in your pi what you are actually doing is using the command associated with what driver we just downloaded.</li>
+  <li>Once the command is issued you are SSH’ed in to your pi. That specific terminal window is now in control of your Pi, and not your mac.</li>
+</ol>
+
+<p>Anyways…</p>
+
+<p>The next thing you have to do is connect the 4 leads on the opposite end of the USB console cable to the GPIO pins of the Raspberry Pi.</p>
+
+<p>After you have downloaded the drivers, restarted your computer, and then connected the lead of the usb cable to the pins on the Pi…</p>
+
+<ol>
+  <li>open your Terminal application</li>
+  <li><strong>plug in the USB console cable</strong></li>
+  <li>Then issue the command:
+<code class="highlighter-rouge">screen /dev/cu.usbserial 115200</code></li>
+</ol>
+
+<p>Make sure you plug in the cable and then immediately issue the command. If you issue the command before the USB is plugged in it will not recognize and you will have to unplug, close the terminal, and try again.</p>
+
+<p>The command <code class="highlighter-rouge">screen</code> is the command associated with the driver we downloaded. /dev/cu.usbserial is the path to our USB ports.
+115200 is the baudrate, which allows us to see the serial connection in language that we can understand.</p>
+
+<h5 id="a-note-on-screen-devcuusbserial-115200">A note on <code class="highlighter-rouge">screen /dev/cu.usbserial 115200</code>…</h5>
+<p>As outlined in the Adafruit tutorial, the command <code class="highlighter-rouge">screen /dev/cu.PL2303-00001004 115200
+</code> is used to connect to the specific USB port on your computer. If you are using this command you should type up to the PL and then press <code class="highlighter-rouge">TAB</code> to auto complete your USB port. Then you will add <code class="highlighter-rouge">115200</code> to the end of the command.</p>
+
+<p><strong>For some reason, (note sure if this is a change associated with El Capitan or not) accessing the specific port is unavailable on my installation. I am going to look into this…</strong></p>
+
+<p>You may have to try both the <code class="highlighter-rouge">screen /dev/cu.usbserial 115200</code> command and the <code class="highlighter-rouge">screen /dev/cu.PL</code> (Press tab) <code class="highlighter-rouge">115200</code></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">kae</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <!-- <li>kae</li> -->
+          <li><a href="mailto:kevin.egbert@purchase.edu">kevin.egbert@purchase.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/kaegbert"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">kaegbert</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/kaegbert"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">kaegbert</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

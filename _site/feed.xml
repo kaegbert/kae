@@ -3,11 +3,59 @@
   <channel>
     <title>kae</title>
     <description></description>
-    <link>http://kevinegbert.com/</link>
-    <atom:link href="http://kevinegbert.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jun 2016 17:21:06 -0400</pubDate>
-    <lastBuildDate>Mon, 06 Jun 2016 17:21:06 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Dec 2016 11:35:06 -0500</pubDate>
+    <lastBuildDate>Sat, 24 Dec 2016 11:35:06 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>open tape</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;object width=&quot;300&quot; height=&quot;160&quot;&gt;
+&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;
+&lt;param name=&quot;movie&quot; value=&quot;http://opentape.fm/mixtape/res/jw_player.swf?playlist=bottom&amp;amp;displayheight=0&amp;amp;thumbsinplaylist=false&amp;amp;file=http://opentape.fm/mixtape/code/xspf.php&quot; /&gt;
+&lt;embed src=&quot;http://opentape.fm/mixtape/res/jw_player.swf?playlist=bottom&amp;amp;displayheight=0&amp;amp;thumbsinplaylist=false&amp;amp;file=http://opentape.fm/mixtape/code/xspf.php&quot; type=&quot;application/x-shockwave-flash&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; width=&quot;300&quot; height=&quot;160&quot; /&gt;&amp;lt;/embed&amp;gt;
+&lt;/object&gt;
+</description>
+        <pubDate>Tue, 20 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/aloha</link>
+        <guid isPermaLink="true">http://localhost:4000/aloha</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>water-infrastructure</title>
+        <description>&lt;p&gt;&lt;em&gt;Water Infrastructure Research and Questions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After visiting and documenting locations on campus related to Purchase’s water supply, Kim and I looked at a proposal that details information surrounding the Senior Housing on the campus. The proposal outlines water supply, sewer, and stormwater management systems.&lt;/p&gt;
+
+&lt;p&gt;In regards to the water supply, Purchase’s supply is provided by Westchester Joint Water Works who obtains water from Catskill and Delaware watersheds of New York City and also from Rye lake. The Waterworks is in negotiations with Westchester County about construction of a new water treatment plant in which it is not know if it impact college tuition rates. There is over 200,000 gallons of water used per day and hydrant flow tests indicate that there is sufficient fire flow except for the furthest ends of water main system.&lt;/p&gt;
+
+&lt;p&gt;Sewer service is owned and maintained by SUNY and the system is connected to a sewer that lies along the eastern boundary of the campus near Blind Brook. There is estimated 113,000 gallons of sewage per day that flows from the sewage system.&lt;/p&gt;
+
+&lt;p&gt;The stormwater system is in the southwestern area of campus. The site drains to tributaries of Blind Brook which flows through Rye and Harrison to Milton Harbor.&lt;/p&gt;
+
+&lt;p&gt;After reading through the proposal I reached out to a former New Media student, Danny Fabricant, who worked on a storm drain sensor system in Steve Lambert’s Special Project in Tiny Computing class. Danny worked with Professor Ryan Taylor to create a system using Raspberry Pi to measure storm drain water levels. I reached out to Danny who detailed information as to a pond marked with orange plastic ties that leads to a pond where the project takes place. I have since then reached out to Ryan Taylor in hopes of gaining more information about the stormwater system.&lt;/p&gt;
+
+&lt;p&gt;“https://www.purchase.edu/sharedmedia/purchasing/development-consultant-rfp-10-03-2013-final-with-attachments.pdf”&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Sep 2016 02:34:25 -0400</pubDate>
+        <link>http://localhost:4000/water-infrastructure</link>
+        <guid isPermaLink="true">http://localhost:4000/water-infrastructure</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>rye 3/11/16</title>
@@ -16,8 +64,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251595004&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 11 Mar 2016 01:34:25 -0500</pubDate>
-        <link>http://kevinegbert.com/rye</link>
-        <guid isPermaLink="true">http://kevinegbert.com/rye</guid>
+        <link>http://localhost:4000/rye</link>
+        <guid isPermaLink="true">http://localhost:4000/rye</guid>
         
         
         <category>jekyll</category>
@@ -115,8 +163,8 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 [; pd dsp 1(&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Dec 2015 01:34:25 -0500</pubDate>
-        <link>http://kevinegbert.com/pi-arduino-audio-processor</link>
-        <guid isPermaLink="true">http://kevinegbert.com/pi-arduino-audio-processor</guid>
+        <link>http://localhost:4000/pi-arduino-audio-processor</link>
+        <guid isPermaLink="true">http://localhost:4000/pi-arduino-audio-processor</guid>
         
         
         <category>jekyll</category>
@@ -128,34 +176,15 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
       <item>
         <title>just like you imagined</title>
         <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Super 8 film manipulated with circuit bent analog video hardware. Post-processing done using digital editing software.
+&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/148065304&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 11 Dec 2015 15:04:25 -0500</pubDate>
-        <link>http://kevinegbert.com/just-like-you-imagined</link>
-        <guid isPermaLink="true">http://kevinegbert.com/just-like-you-imagined</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>limbo</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;an uncertain period of awaiting a decision or resolution; an intermediate state or condition.&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;img_row&quot;&gt;
-&lt;img src=&quot;/img/limbo.gif&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Oct 2015 23:04:25 -0400</pubDate>
-        <link>http://kevinegbert.com/limbo</link>
-        <guid isPermaLink="true">http://kevinegbert.com/limbo</guid>
+        <link>http://localhost:4000/just-like-you-imagined</link>
+        <guid isPermaLink="true">http://localhost:4000/just-like-you-imagined</guid>
         
         
         <category>jekyll</category>
@@ -194,9 +223,11 @@ replace ‘raspberrypi’&lt;/p&gt;
 sudo reboot&lt;/p&gt;
 
 &lt;p&gt;after restart:
-hostname –fqd
-4. Setup Console Cable (not required)
-How to use a console cable with Raspberry Pi.&lt;/p&gt;
+hostname –fqd&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Setup Console Cable (not required)
+How to use a console cable with Raspberry Pi.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;I recommend the console cable as it is easy to use and you don’t need to setup an extra monitor, keyboard, and mouse to work on the pi.&lt;/p&gt;
 
@@ -259,8 +290,8 @@ I use the java version on my macbook.&lt;/p&gt;
 &lt;p&gt;More Documentation on VNC here.&lt;/p&gt;
 </description>
         <pubDate>Wed, 07 Oct 2015 12:08:25 -0400</pubDate>
-        <link>http://kevinegbert.com/pi-setup</link>
-        <guid isPermaLink="true">http://kevinegbert.com/pi-setup</guid>
+        <link>http://localhost:4000/pi-setup</link>
+        <guid isPermaLink="true">http://localhost:4000/pi-setup</guid>
         
         
         <category>jekyll</category>
@@ -276,8 +307,8 @@ I use the java version on my macbook.&lt;/p&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/140622958&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sun, 13 Sep 2015 22:34:25 -0400</pubDate>
-        <link>http://kevinegbert.com/untitled</link>
-        <guid isPermaLink="true">http://kevinegbert.com/untitled</guid>
+        <link>http://localhost:4000/untitled</link>
+        <guid isPermaLink="true">http://localhost:4000/untitled</guid>
         
         
         <category>jekyll</category>
@@ -293,8 +324,8 @@ I use the java version on my macbook.&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;700&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179986740&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 04 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://kevinegbert.com/sifaka</link>
-        <guid isPermaLink="true">http://kevinegbert.com/sifaka</guid>
+        <link>http://localhost:4000/sifaka</link>
+        <guid isPermaLink="true">http://localhost:4000/sifaka</guid>
         
         
         <category>jekyll</category>

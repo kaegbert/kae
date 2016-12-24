@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 13px/1.5 "Montserrat", Arial, sans-serif;
+  font: 400 13px/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #111;
   background-color: #fdfdfe;
   -webkit-text-size-adjust: 100%;
