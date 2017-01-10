@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /tiny computing/
+permalink: /tinycomputing/
 ---
 **Special Projects in Tiny Computing**
 
@@ -13,7 +13,7 @@ Using the [Learning Raspberry Pi Adafruit tutorials](https://learn.adafruit.com/
 
 First things first, we need an operating system...
 
-### 1. Download Raspbian /Installing an image of Raspbian.
+## 1. Download Raspbian /Installing an image of Raspbian.
 
 As Steve mentioned in class, we are going to use Raspbian. [Raspbian](https://en.wikipedia.org/wiki/Raspbian) is a play on [Debian](https://en.wikipedia.org/wiki/Debian), a popular form of [Linux](https://en.wikipedia.org/wiki/Linux).
 
