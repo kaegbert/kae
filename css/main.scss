@@ -6,11 +6,16 @@
 
 
 // Our variables
-$base-font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$base-font-family:  "Source Sans Pro", "Book Antiqua", Palatino, serif;
 $base-font-size:   13px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+#header nav { font-family: "Apercu Regular", Helvetica, sans-serif; }
+#header nav h2 { margin-top: 0; font-family: "Apercu Bold", Helvetica, sans-serif; font-weight: bold; }
+#header nav h2 a { text-decoration: none !important; color: #000; }
+#header nav a { text-decoration: none !important; display: block; }
 
 $spacing-unit:     30px;
 
