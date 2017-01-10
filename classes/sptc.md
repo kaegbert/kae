@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /sptc/
+permalink: /tiny computing/
 ---
 **Special Projects in Tiny Computing**
 
