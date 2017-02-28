@@ -20,7 +20,7 @@ permalink: /about/
 
  <p>
 
-My name is Kevin and I am interested in effective communication and our ever changing relationships with emergent technologies.</p>
+My name is Kevin and I am interested in effective communication and our changing relationships with emergent technologies.</p>
 
 <p>I was born in Rochester, grew up in Saratoga Springs, and now live in New York. I currently study New Media at Purchase College. I graduated from SUNY Adirondack with an AAS in Media Arts in 2014. My creative background is heavily tied to my fascination with computers and love for sound and music.</p>
 
