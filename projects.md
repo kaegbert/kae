@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
 permalink: /projects/
 ---
+<!-- title: projects -->
 
 <!-- <div class="img_row">
   <img class="col two" src="/img/kae.jpg"/>

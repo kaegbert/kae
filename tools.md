@@ -1,8 +1,8 @@
 ---
 layout: page
-title: tools
 permalink: /tools/
 ---
+<!-- title: tools -->
 
 <!-- <div class="img_row">
   <img class="col two" src="/img/kae.jpg"/>
