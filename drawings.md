@@ -8,20 +8,22 @@ permalink: /drawings/
   <img class="col two" src="/img/kae.jpg"/>
 </div> -->
 
-<img src="{{ site.baseurl }}/img/kae.jpg">
+<img src="{{ site.baseurl }}/img/terminal_1.jpg">
 
 
 <br>
 
+<img src="{{ site.baseurl }}/img/terminal_2.jpg">
 
-<!-- <h1>currently.</h1> -->
-<!-- <h2>Empowering each other.</h2> -->
-<!-- <h3> -->
 
- <p>
+<br>
 
-My name is Kevin and I am interested in effective communication and our changing relationships with emergent technologies.</p>
+<img src="{{ site.baseurl }}/img/times_square.jpg">
 
-<p>I was born in Rochester, grew up in Saratoga Springs, and now live in New York. I currently study New Media at Purchase College. I graduated from SUNY Adirondack with an AAS in Media Arts in 2014. My creative background is heavily tied to my fascination with computers and love for sound and music.</p>
 
-[resume](http://kevinegbert.com/resume.pdf)
+<br>
+
+<img src="{{ site.baseurl }}/img/psychological_noise_1.jpg">
+
+
+<br>
