@@ -7,7 +7,7 @@ layout: default
 
 <!-- <iframe src="http://kevinegbert.com/kae_sigma/" width="700px" height="300px"></iframe> -->
 
-<img src="{{ site.baseurl }}/img/times_square.jpg>
+<img src="{{ site.baseurl }}/img/times_square.jpg" width="960">
 
 
   <!-- <script src="kae_sigma/sketch.js" type="text/javascript"></script> -->
