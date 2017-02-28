@@ -1,6 +1,5 @@
 ---
 layout: post
-title: tiny computing
 permalink: /tinycomputing/
 ---
 **Special Projects in Tiny Computing**
