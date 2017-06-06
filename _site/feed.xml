@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Feb 2017 00:51:07 -0500</pubDate>
-    <lastBuildDate>Tue, 28 Feb 2017 00:51:07 -0500</lastBuildDate>
+    <pubDate>Tue, 06 Jun 2017 18:53:21 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 18:53:21 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -59,10 +59,7 @@
     
       <item>
         <title>BAM Digital Arts Studio 1/2</title>
-        <description>&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;In late July I volunteered at the Brooklyn Academy of Music, assisting with a summer digital media and electronics camp for elementary students.&lt;/p&gt;
+        <description>&lt;p&gt;In late July I volunteered at the Brooklyn Academy of Music, assisting with a summer digital media and electronics camp for elementary students.&lt;/p&gt;
 
 &lt;p&gt;The first Digital Arts Studio ran from July 18th to July 22nd and worked with students ranging from the age of eight to nine. The second session ran from the 25th to the 29th and worked with students from ages ten to eleven.&lt;/p&gt;
 

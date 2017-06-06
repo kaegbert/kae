@@ -7,7 +7,7 @@ layout: default
 
 <!-- <iframe src="http://kevinegbert.com/kae_sigma/" width="700px" height="300px"></iframe> -->
 
-<img src="{{ site.baseurl }}/img/times_square.jpg" width="960">
+<!-- <img src="{{ site.baseurl }}/img/times_square.jpg" > -->
 
 
   <!-- <script src="kae_sigma/sketch.js" type="text/javascript"></script> -->
@@ -27,8 +27,7 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul> -->
-<!--
+  </ul>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
@@ -41,13 +40,37 @@ layout: default
   also possible.</p>
     </blockquote> -->
 
-
 <!-- <span style="color: orange"> party time </span> -->
 
 
   <body>
 
 <!-- <img align="right" src="img/blue.png"> -->
+<link href="css/styles.css" rel="stylesheet" />
+
+ <div class="masonry">
+<a href="https://www.w3schools.com">
+<div class="item"><img src="img/1.jpg"></div>
+</a>
+<div class="item"><img src="img/2.png"></div>
+
+<div class="item"><img src="img/times_square.jpg"></div>
+
+<a href="http://localhost:4000/BAM-sound-walk">
+<div class="item"><img src="img/bam8.jpg"></div>
+</a>
+
+<a href="http://localhost:4000/BAM-sound-walk">
+<div class="item"><img src="img/coffee.jpg"></div>
+</a>
+
+<a href="http://localhost:4000/BAM-sound-walk">
+<div class="item"><img src="img/IB_3.gif"></div>
+</a>
+
+
+
+</div>
 
 
   </body>

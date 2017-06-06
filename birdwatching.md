@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: immersive birdwatching
+permalink: birdwatching
 ---
 
 <p>

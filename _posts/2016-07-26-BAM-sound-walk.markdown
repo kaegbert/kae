@@ -5,9 +5,6 @@ date:   2016-07-25 02:34:25 -0400
 categories: jekyll update
 body-class: post-welcome
 ---
-<br>
-<br>
-
 In late July I volunteered at the Brooklyn Academy of Music, assisting with a summer digital media and electronics camp for elementary students.
 
 The first Digital Arts Studio ran from July 18th to July 22nd and worked with students ranging from the age of eight to nine. The second session ran from the 25th to the 29th and worked with students from ages ten to eleven.
