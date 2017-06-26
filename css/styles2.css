@@ -1,0 +1,204 @@
+.masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 4em;
+    /*margin: 15px;*/
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+
+
+}
+
+body {
+	background-color: #ffffff;
+	/*font-family: Courier, Helvetica, sans-serif;*/
+	font-size: 13px;
+	/*text-align: center;*/
+	/*margin-left: 70px;
+  margin-right: 70px;*/
+	/*padding: 40px;*/
+	/*background-color: #D1E0FF;*/*/
+	height: 100%;
+/*	background-image: url("images/s.png");
+
+*/}
+
+
+/*.poem {
+  margin-left: 340px;
+  margin-right: 340px;
+  margin-top: 35px;
+}*/
+
+/*#uni{
+height: 100%;
+	background-image: url("images/kev.jpg");
+}*/
+
+#mytext {
+	font-family: 'Arvo', serif;
+	color: #FFFFFF;
+}
+
+/*Homepage Links*/
+/*h1 {
+font-family: "Courier New", Courier monospace;
+font-size: 27px;
+font-weight: bold;
+color: #000000;
+letter-spacing: 2px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+/*Main Text*/
+/*h2 {
+font-family: "Century Gothic";
+font-size: 16.5px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 23px;
+text-align: center;
+margin-right: 20%;
+margin-left: 20%;
+margin-bottom: 20px;
+}
+
+h4{
+font-family: "Courier New", Courier, monospace;
+font-size: 24px;
+color: #000000;
+letter-spacing: 20px;
+line-height: 40px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 40px;
+margin-right: 40px;
+
+}*/
+
+/*Main Link*/
+/*h3 {
+font-family: "Courier New", Courier, monospace;
+font-size: 24px;
+font-weight: bold;
+
+color: #FFFFFF;
+letter-spacing: 3px;
+text-align: center;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/*Link Positioning*/
+/*#photoLink {
+position: absolute;
+    top: 79px;
+    left: -2px;
+    transform: rotate(-50deg);
+}
+
+
+#videoLink {
+position: absolute;
+    top: 86px;
+    left: 618px;
+        transform: rotate(50deg);
+
+}
+
+
+#soundLink {
+position: absolute;
+    top: 413px;
+    right: 655px;
+    transform: rotate(60deg);
+}
+
+#musicLink {
+position: absolute;
+    top: 474px;
+    right: -358px;
+    transform: rotate(-60deg);
+}
+
+#compLink {
+position: absolute;
+    bottom: 706px;
+    left: 315px;
+        transform: rotate(0deg);
+}
+
+#aboutLink {
+position: absolute;
+    top: 730px;
+    right: -166px;
+    transform: rotate(-30deg);
+}
+
+#writingLink {
+position: absolute;
+    top: 730px;
+    right: 128px;
+    transform: rotate(25deg);
+}
+
+#black {
+	width: 100%;
+	height: 150px;
+background-image: url("images/blackmenu.jpg");
+}*/
+
+
+/*Link Properties*/
+
+/*a:hover{
+	opacity: 0.8;
+	text-decoration: none;
+
+}
+
+a:visited{
+	color: #000000;
+	text-decoration: none;
+
+}
+
+a:link{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*Borders*/
+#top, #bottom, #left, #right {
+	background: #000000;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }*/
+
+
+
+
+/*Image Hover Opacity*/
+/*#imgLinks img:hover{
+
+opacity: 0.5;
+}*/

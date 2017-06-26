@@ -4,6 +4,8 @@ title:  "pi / arduino / pD audio effects processor"
 date:   2015-12-23 02:34:25 -0400
 categories: jekyll update
 body-class: post-welcome
+image: /img/vnc.png
+
 ---
 <iframe src="https://player.vimeo.com/video/149586351" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

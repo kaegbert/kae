@@ -3,7 +3,14 @@ layout: page
 title: blog
 permalink: /blog/
 ---
+
+
 <div class="home">
+
+<link href="/css/styles2.css" rel="stylesheet" />
+
+ <div class="masonry">
+
 
   <!-- <h1 class="page-heading">Posts</h1> -->
 
@@ -11,15 +18,13 @@ permalink: /blog/
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"></a>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
 

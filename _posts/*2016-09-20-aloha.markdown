@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "open tape"
+date:   2016-09-20
+categories: jekyll update
+body-class: post-welcome
+image: /img/godmode.png
+
+---
+<br>
+<br>
+<object width="300" height="160">
+<param name="allowscriptaccess" value="always" />
+<param name="movie" value="http://opentape.fm/mixtape/res/jw_player.swf?playlist=bottom&displayheight=0&thumbsinplaylist=false&file=http://opentape.fm/mixtape/code/xspf.php" />
+<embed src="http://opentape.fm/mixtape/res/jw_player.swf?playlist=bottom&displayheight=0&thumbsinplaylist=false&file=http://opentape.fm/mixtape/code/xspf.php" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="300" height="160"></embed>
+</object>
