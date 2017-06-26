@@ -5,9 +5,9 @@ permalink: birdwatching
 <div class="home">
 </div>
 
-***Immersive Birdwatching*** is a project that opens up conversation surrounding wearable technology that is supposed to empower the user to continue their research hands free. The dysfunctional interface brings into question our attempts at creating interfaces that enable us to further our research and extend our experiences with the natural environment and our human relationships to it. </p>
+***Immersive Birdwatching*** is a project that opens up conversation surrounding wearable technology that is supposed to empower the user to continue their research hands free. The dysfunctional interface brings into question our attempts at creating interfaces that enable us to further our research and extend our experiences with the natural environment and our human relationships to it.
 
-<p>The headpiece utilizes two shotgun microphones interfaced with a handheld audio recorder. The microphones are placed at ear distance apart to create three dimensional stereo audio recordings. Binoculars are attached to a beer drinking helmet that allows for hands free magnification. Hot glued leaves conceal you when you need it most. </p>
+The headpiece utilizes two shotgun microphones interfaced with a handheld audio recorder. The microphones are placed at ear distance apart to create three dimensional stereo audio recordings. Binoculars are attached to a beer drinking helmet that allows for hands free magnification. Hot glued leaves conceal you when you need it most. </p>
 
 
   <body>
