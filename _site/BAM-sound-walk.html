@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>pi / arduino / pD audio effects processor</title>
+  <title>kevin egbert</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/pi-arduino-audio-processor">
+  <link rel="canonical" href="http://localhost:4000/BAM-sound-walk">
   <link rel="alternate" type="application/rss+xml" title="kevin egbert" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -190,96 +190,56 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">pi / arduino / pD audio effects processor</h1>
-    <p class="post-meta">December 23, 2015</p>
+    <h1 class="post-title"></h1>
+    <h5 class="post-description"></h5>
   </header>
 
   <article class="post-content">
-    <iframe src="https://player.vimeo.com/video/149586351" width="640" height="400" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <p>In late July I volunteered at the Brooklyn Academy of Music, assisting with a summer digital media and electronics camp for elementary students.</p>
+
+<p>The first Digital Arts Studio ran from July 18th to July 22nd and worked with students ranging from the age of eight to nine. The second session ran from the 25th to the 29th and worked with students from ages ten to eleven.</p>
+
+<p>BAM, which is located in downtown Brooklyn, has been open and operating since 1908. The academy is known for is progressive and avant garde performances. While also operating as a large scale performance center, BAM has focused on urban arts and community needs, including workshops and classes for students.</p>
+
+<p>Students worked on group as well as individual projects ranging from building drawing robots to creating sound maps. The maps were made out of common craft materials but interfaced with a Makey-makey controller, allowing users to touch specific locations on the map and trigger audio of field recordings that students recorded during a walk through downtown Brooklyn.</p>
+
+<p>Digital Arts Studio at BAM was in partnership with The School for Poetic Computation, an artist-led school for beginners and professionals exploring the creative use of software, hardware, and theory.</p>
 
 <p><br /></p>
 
-<p>This project uses Raspberry Pi, Arduino, and PureData to create a digital multi-fx "pedal" to process sound in real time. The tutorial covers setup with the pi to both PureData and Arduino.</p>
+<!-- In partnership with The School for Poetic Computation in collaboration with Molmol Kuo
 
-<p>The end goal is to use PureData (a visual programming language developed for creating multimedia works) to manipulate audio in real time with the help of a usb audio interface. PureData can be easily installed on a Pi and through some setup, an Arduino can be used to control parameters in the PureData patch.</p>
+Like paint or words, electronics and source code can be used as tools to create new works of art and poetry. This truly inventive workshop expands students’ understanding of the artistic process by demonstrating how electronics can be integrated into art. Activities include learning the basics of electricity, incorporate drawing and code, build a handmade computer, and create an audio landscape of the BAM neighborhood with noise and sound.
 
-<p>The main focus of this tutorial is to share my path in integrating PD to run “headlessly” on the Raspberry Pi. Despite a more extensive setup with the pi, the lack of computer peripherals and components opens up many opportunities in creating interactive systems.</p>
+PARTICIPANTS WILL:
+• Develop abstract reasoning skills
+• Develop logical thinking and analytical research
+• Understand the principles of code and abstraction -->
 
-<p>In this post I will jump right into using a USB audio interface with the pi and move into configuring it with pureData. If you still need to setup your pi, you can check out my extensive posts below.</p>
+<p><img src="/img/bam1.jpg" /></p>
 
-<h2>pDuino</h2>
-<p>pDuino is an object created by Hans Christoph Steiner. It handles communication between Arduino microcontrollers and the PureData software. This is important to us because it allows us to integrate electronic components like knobs and switches that can change parameters in our Pd patch. This is what allows us to construct a physical device that can control our patch dynamically.</p>
+<p><img src="/img/bam2.jpg" /></p>
 
-<p>The first thing to do is to visit:
-http://at.or.at/hans/pd/objects.html</p>
+<p><img src="/img/bam3.jpg" /></p>
 
-<ol>
-  <li>
-    <p>Download the pDuino object and Firmata firmware.
-Firmata is what will be loaded onto the Arduino and allows PureData complete control in terms of turning on digital and analog inputs on the Arduino board.</p>
-  </li>
-  <li>
-    <p>Extract the pDuino archive to a known location on your computer.</p>
-  </li>
-  <li>
-    <p>Create a path in PureData to the archive location so that PureData can reference it and create arduino objects.
-This is done by going to preferences – path – new. You should browse to the folder and apply the changes.</p>
-  </li>
-</ol>
+<p><img src="/img/bam4.jpg" /></p>
 
-<p>More documentation here: http://en.flossmanuals.net/pure-data/ch060_installing-pduino/</p>
+<p><img src="/img/bam5.jpg" /></p>
 
-<h2>Using a USB Audio Interface with Rasberry Pi and PureData</h2>
+<p><img src="/img/bam6.jpg" /></p>
 
-<p>Setting up a USB Audio Interface with the pi and using alsamixer to record/play audio from command line.</p>
+<p><img src="/img/bam7.jpg" /></p>
 
-<p>Some USB interfaces are compatible with the pi. In my case I am using an Audiobox USB.</p>
+<p><img src="/img/bam8.jpg" /></p>
 
-<p>Using alsamixer will allow you to select your sound card instead of the default hdmi.
-to record a file called “rectest” into the current directory…​arecord -D plughw:0 –duration=10 -f cd -vv ~/rectest.wav​</p>
+<!--
+We went for a soundwalk.
 
-<p>to play it back (using the soundcards output)…
-aplay -D plughw:0 ~/rectest.wav</p>
+Here is a map.
 
-<p>​The 0 after plughw: refers to my interface. It was listed as 0 as you can see here…</p>
+Here are some recordings that we made
 
-<p>alsa</p>
-
-<p>Installing and Configuring PureData with the pi.</p>
-
-<p>Whether sharing internet from ethernet or just plugging right in to your router, install PureData. Note: This will only install PD-Vanilla. To use the Arduino controller we will have to install other packages. This will be discussed later…</p>
-
-<p>sudo apt-get install puredata</p>
-
-<p>vnc</p>
-
-<p>You can see in the image above that I am VNCed into my pi and accessing PureData through the gui. Once PD is done installing it will be listed under the sound and video menu on the pi.</p>
-
-<p>Navigate to preferences in PD and make sure your usb interface is selected as audio input/output.</p>
-
-<p>pd_audio_settings</p>
-
-<ol>
-  <li>Running PD “headless” on the pi</li>
-</ol>
-
-<p>In order to get patches running on the pi with no need for monitor/keyboard/mouse there are two things that must be accomplished. The first thing is that you need to create a script that tells the pi to open the Pd patch on start up and the second is handled in the Pd patch itself.</p>
-
-<p>Cron jobs are perfect for having Pd patches run at startup.</p>
-
-<p>Once that is complete, you need to add the following string into PD.</p>
-
-<p>This will delay the patch from loading immediately which is required in order for it to run properly on startup.</p>
-
-<p>One other tip…</p>
-
-<p>this is what the post that helped me looked like…</p>
-
-<p>[loadbang]
-|
-[delay 100]
-|
-[; pd dsp 1(</p>
+IMAGES. -->
 
   </article>
 

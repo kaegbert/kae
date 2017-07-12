@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>pi / arduino / pD audio effects processor</title>
+  <title>kevin egbert</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/pi-arduino-audio-processor">
+  <link rel="canonical" href="http://localhost:4000/rye">
   <link rel="alternate" type="application/rss+xml" title="kevin egbert" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -190,96 +190,14 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">pi / arduino / pD audio effects processor</h1>
-    <p class="post-meta">December 23, 2015</p>
+    <h1 class="post-title"></h1>
+    <h5 class="post-description"></h5>
   </header>
 
   <article class="post-content">
-    <iframe src="https://player.vimeo.com/video/149586351" width="640" height="400" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-<p><br /></p>
-
-<p>This project uses Raspberry Pi, Arduino, and PureData to create a digital multi-fx "pedal" to process sound in real time. The tutorial covers setup with the pi to both PureData and Arduino.</p>
-
-<p>The end goal is to use PureData (a visual programming language developed for creating multimedia works) to manipulate audio in real time with the help of a usb audio interface. PureData can be easily installed on a Pi and through some setup, an Arduino can be used to control parameters in the PureData patch.</p>
-
-<p>The main focus of this tutorial is to share my path in integrating PD to run “headlessly” on the Raspberry Pi. Despite a more extensive setup with the pi, the lack of computer peripherals and components opens up many opportunities in creating interactive systems.</p>
-
-<p>In this post I will jump right into using a USB audio interface with the pi and move into configuring it with pureData. If you still need to setup your pi, you can check out my extensive posts below.</p>
-
-<h2>pDuino</h2>
-<p>pDuino is an object created by Hans Christoph Steiner. It handles communication between Arduino microcontrollers and the PureData software. This is important to us because it allows us to integrate electronic components like knobs and switches that can change parameters in our Pd patch. This is what allows us to construct a physical device that can control our patch dynamically.</p>
-
-<p>The first thing to do is to visit:
-http://at.or.at/hans/pd/objects.html</p>
-
-<ol>
-  <li>
-    <p>Download the pDuino object and Firmata firmware.
-Firmata is what will be loaded onto the Arduino and allows PureData complete control in terms of turning on digital and analog inputs on the Arduino board.</p>
-  </li>
-  <li>
-    <p>Extract the pDuino archive to a known location on your computer.</p>
-  </li>
-  <li>
-    <p>Create a path in PureData to the archive location so that PureData can reference it and create arduino objects.
-This is done by going to preferences – path – new. You should browse to the folder and apply the changes.</p>
-  </li>
-</ol>
-
-<p>More documentation here: http://en.flossmanuals.net/pure-data/ch060_installing-pduino/</p>
-
-<h2>Using a USB Audio Interface with Rasberry Pi and PureData</h2>
-
-<p>Setting up a USB Audio Interface with the pi and using alsamixer to record/play audio from command line.</p>
-
-<p>Some USB interfaces are compatible with the pi. In my case I am using an Audiobox USB.</p>
-
-<p>Using alsamixer will allow you to select your sound card instead of the default hdmi.
-to record a file called “rectest” into the current directory…​arecord -D plughw:0 –duration=10 -f cd -vv ~/rectest.wav​</p>
-
-<p>to play it back (using the soundcards output)…
-aplay -D plughw:0 ~/rectest.wav</p>
-
-<p>​The 0 after plughw: refers to my interface. It was listed as 0 as you can see here…</p>
-
-<p>alsa</p>
-
-<p>Installing and Configuring PureData with the pi.</p>
-
-<p>Whether sharing internet from ethernet or just plugging right in to your router, install PureData. Note: This will only install PD-Vanilla. To use the Arduino controller we will have to install other packages. This will be discussed later…</p>
-
-<p>sudo apt-get install puredata</p>
-
-<p>vnc</p>
-
-<p>You can see in the image above that I am VNCed into my pi and accessing PureData through the gui. Once PD is done installing it will be listed under the sound and video menu on the pi.</p>
-
-<p>Navigate to preferences in PD and make sure your usb interface is selected as audio input/output.</p>
-
-<p>pd_audio_settings</p>
-
-<ol>
-  <li>Running PD “headless” on the pi</li>
-</ol>
-
-<p>In order to get patches running on the pi with no need for monitor/keyboard/mouse there are two things that must be accomplished. The first thing is that you need to create a script that tells the pi to open the Pd patch on start up and the second is handled in the Pd patch itself.</p>
-
-<p>Cron jobs are perfect for having Pd patches run at startup.</p>
-
-<p>Once that is complete, you need to add the following string into PD.</p>
-
-<p>This will delay the patch from loading immediately which is required in order for it to run properly on startup.</p>
-
-<p>One other tip…</p>
-
-<p>this is what the post that helped me looked like…</p>
-
-<p>[loadbang]
-|
-[delay 100]
-|
-[; pd dsp 1(</p>
+    <p><br />
+<br /></p>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251595004&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
   </article>
 
