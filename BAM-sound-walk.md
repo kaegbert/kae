@@ -19,11 +19,6 @@ Students worked on group as well as individual projects ranging from building dr
 </p>
 <p>
 Digital Arts Studio at BAM was in partnership with The School for Poetic Computation, an artist-led school for beginners and professionals exploring the creative use of software, hardware, and theory.
-</p>
-<br>
-<br>
-<br>
-
 
 <!-- In partnership with The School for Poetic Computation in collaboration with Molmol Kuo
 

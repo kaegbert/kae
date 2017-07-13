@@ -1,37 +1,38 @@
 ---
-layout: page
+layout: default
+title: still
 permalink: /still/
 ---
 
-<!-- <div class="img_row">
-  <img class="col two" src="/img/kae.jpg"/>
-</div> -->
-<!-- -->
+<div class="home">
+</div>
+
+  <body>
+
+<div class="item"><img src="{{ site.baseurl }}/img/glass.gif"></div>
+<br>
+
+ <div class="item"><img src="{{ site.baseurl }}/img/glass1.jpg"></div>
+ <br>
 
 
-<img src="{{ site.baseurl }}/img/SNAIL.png">
-
-<img src="{{ site.baseurl }}/img/modular.png">
-
-<img src="{{ site.baseurl }}/img/cookie2.png">
-
-<img src="{{ site.baseurl }}/img/beach.jpg">
-
-<img src="{{ site.baseurl }}/img/blue.png">
-
-<img src="{{ site.baseurl }}/img/pup.jpg">
-
-<img src="{{ site.baseurl }}/img/santanoni.jpg">
-
-<img src="{{ site.baseurl }}/img/fireflower.jpg">
-
-<img src="{{ site.baseurl }}/img/black.jpg">
-
-<img src="{{ site.baseurl }}/img/giant.jpg">
+ <div class="item"><img src="{{ site.baseurl }}/img/edit3.jpg"></div>
+ <br>
 
 
+ <div class="item"><img src="{{ site.baseurl }}/img/edit4.jpg"></div>
+ <br>
 
+ <div class="item"><img src="{{ site.baseurl }}/img/glass.jpg"></div>
+ <br>
+
+
+ <div class="item"><img src="{{ site.baseurl }}/img/party.jpg"></div>
+ <br>
 
 
 
-<!-- [Smaller](http://25.io/smaller/) -->
+
+
+
+  </body>

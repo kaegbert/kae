@@ -5,29 +5,78 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jul 2017 16:54:53 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Jul 2017 16:54:53 -0400</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2017 17:42:55 -0400</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 17:42:55 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>water-infrastructure</title>
-        <description>&lt;p&gt;&lt;em&gt;Water Infrastructure Research and Questions&lt;/em&gt;&lt;/p&gt;
+        <title>BAM Digital Arts Studio 1/2</title>
+        <description>&lt;div class=&quot;home&quot;&gt;
+&lt;/div&gt;
 
-&lt;p&gt;After visiting and documenting locations on campus related to Purchase’s water supply, Kim and I looked at a proposal that details information surrounding the Senior Housing on the campus. The proposal outlines water supply, sewer, and stormwater management systems.&lt;/p&gt;
+&lt;body&gt;
 
-&lt;p&gt;In regards to the water supply, Purchase’s supply is provided by Westchester Joint Water Works who obtains water from Catskill and Delaware watersheds of New York City and also from Rye lake. The Waterworks is in negotiations with Westchester County about construction of a new water treatment plant in which it is not know if it impact college tuition rates. There is over 200,000 gallons of water used per day and hydrant flow tests indicate that there is sufficient fire flow except for the furthest ends of water main system.&lt;/p&gt;
+&lt;p&gt;In late July I volunteered at the Brooklyn Academy of Music, assisting with a summer digital media and electronics camp for elementary students.
+&lt;/p&gt;
+&lt;p&gt;The first Digital Arts Studio ran from July 18th to July 22nd and worked with students ranging from the age of eight to nine. The second session ran from the 25th to the 29th and worked with students from ages ten to eleven.
+&lt;/p&gt;
+&lt;p&gt;
+BAM, which is located in downtown Brooklyn, has been open and operating since 1908. The academy is known for is progressive and avant garde performances. While also operating as a large scale performance center, BAM has focused on urban arts and community needs, including workshops and classes for students.
+&lt;/p&gt;
+&lt;p&gt;
+Students worked on group as well as individual projects ranging from building drawing robots to creating sound maps. The maps were made out of common craft materials but interfaced with a Makey-makey controller, allowing users to touch specific locations on the map and trigger audio of field recordings that students recorded during a walk through downtown Brooklyn.
+&lt;/p&gt;
+&lt;p&gt;
+Digital Arts Studio at BAM was in partnership with The School for Poetic Computation, an artist-led school for beginners and professionals exploring the creative use of software, hardware, and theory.
 
-&lt;p&gt;Sewer service is owned and maintained by SUNY and the system is connected to a sewer that lies along the eastern boundary of the campus near Blind Brook. There is estimated 113,000 gallons of sewage per day that flows from the sewage system.&lt;/p&gt;
+&lt;!-- In partnership with The School for Poetic Computation in collaboration with Molmol Kuo
 
-&lt;p&gt;The stormwater system is in the southwestern area of campus. The site drains to tributaries of Blind Brook which flows through Rye and Harrison to Milton Harbor.&lt;/p&gt;
+Like paint or words, electronics and source code can be used as tools to create new works of art and poetry. This truly inventive workshop expands students’ understanding of the artistic process by demonstrating how electronics can be integrated into art. Activities include learning the basics of electricity, incorporate drawing and code, build a handmade computer, and create an audio landscape of the BAM neighborhood with noise and sound.
 
-&lt;p&gt;After reading through the proposal I reached out to a former New Media student, Danny Fabricant, who worked on a storm drain sensor system in Steve Lambert’s Special Project in Tiny Computing class. Danny worked with Professor Ryan Taylor to create a system using Raspberry Pi to measure storm drain water levels. I reached out to Danny who detailed information as to a pond marked with orange plastic ties that leads to a pond where the project takes place. I have since then reached out to Ryan Taylor in hopes of gaining more information about the stormwater system.&lt;/p&gt;
+PARTICIPANTS WILL:
+• Develop abstract reasoning skills
+• Develop logical thinking and analytical research
+• Understand the principles of code and abstraction --&gt;
 
-&lt;p&gt;“https://www.purchase.edu/sharedmedia/purchasing/development-consultant-rfp-10-03-2013-final-with-attachments.pdf”&lt;/p&gt;
+&lt;link href=&quot;css/styles.css&quot; rel=&quot;stylesheet&quot; /&gt;
+
+ &lt;div class=&quot;masonry&quot;&gt;
+&lt;!-- image 1 --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/bam1.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+&lt;!-- image 2 --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/bam2.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/bam3.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/bam4.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/bam5.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/bam7.jpg&quot; /&gt;&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+
+
+&lt;!--
+We went for a soundwalk.
+
+Here is a map.
+
+Here are some recordings that we made
+
+IMAGES. --&gt;
+&lt;/p&gt;&lt;/body&gt;
 </description>
-        <pubDate>Mon, 12 Sep 2016 02:34:25 -0400</pubDate>
-        <link>http://localhost:4000/water-infrastructure</link>
-        <guid isPermaLink="true">http://localhost:4000/water-infrastructure</guid>
+        <pubDate>Mon, 25 Jul 2016 02:34:25 -0400</pubDate>
+        <link>http://localhost:4000/BAM-sound-walk</link>
+        <guid isPermaLink="true">http://localhost:4000/BAM-sound-walk</guid>
         
         
         <category>jekyll</category>
@@ -127,6 +176,135 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
         <pubDate>Wed, 23 Dec 2015 01:34:25 -0500</pubDate>
         <link>http://localhost:4000/pi-arduino-audio-processor</link>
         <guid isPermaLink="true">http://localhost:4000/pi-arduino-audio-processor</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>limbo</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;an uncertain period of awaiting a decision or resolution; an intermediate state or condition.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;img_row&quot;&gt;
+&lt;img src=&quot;/img/limbo.gif&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 23:04:25 -0400</pubDate>
+        <link>http://localhost:4000/limbo</link>
+        <guid isPermaLink="true">http://localhost:4000/limbo</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>basic raspberry pi setup</title>
+        <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;h1&gt;1. Download Raspbian Wheezy&lt;/h1&gt;
+
+&lt;p&gt;This is the webpage where you will find the freshest install of Raspbian Wheezy available. If you have not formatted an SD card for the pi in the past, I recommend looking up a tutorial on how to do it on youtube. You could also use Apple Pi Baker. There are many different examples of how to do this whether you are on Mac, Windows, or Linux. It is quite easy to write a card from the command line.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;raspi-config&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a good time to change your password.&lt;/p&gt;
+
+&lt;p&gt;This is also quite basic but necessary. Adafruit has a really short and sweet tutorial on how to use raspi-config to setup a lot of different functions. If you plan on using ssh, which we do, you will definitely need to enable it here.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Change your Hostname
+How to Change your Hostname.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;sudo nano /etc/hostname
+sudo nano /etc/hosts
+sudo /etc/init.d/hostname.sh
+replace ‘raspberrypi’&lt;/p&gt;
+
+&lt;p&gt;ctrl + x
+sudo reboot&lt;/p&gt;
+
+&lt;p&gt;after restart:
+hostname –fqd&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Setup Console Cable (not required)
+How to use a console cable with Raspberry Pi.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I recommend the console cable as it is easy to use and you don’t need to setup an extra monitor, keyboard, and mouse to work on the pi.&lt;/p&gt;
+
+&lt;p&gt;cc&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get install screen
+Mac software is built in unless you are using Lion or Mountain Lion.
+Windows – download Putty. Install PL2303 Drivers.&lt;/p&gt;
+
+&lt;p&gt;DO NOT attach the Pi’s USB power adapter. If you would rather power the Pi from your USB power adapter then leave the Red lead from the Serial lead un attached.&lt;/p&gt;
+
+&lt;p&gt;Open up a terminal…&lt;/p&gt;
+
+&lt;p&gt;screen /dev/cu.PL2303-00001004 115200
+​
+Accessing the USB port in the terminal. On a Mac…&lt;/p&gt;
+
+&lt;p&gt;Open the terminal then connect the usb lead.
+Enter screen /dev/cu.PL into the terminal.
+The first time you do this, hit tab to autocomplete the name of your port.
+Add 115200 to then end.
+I find most success when you recall the screen /dev command with the up arrow key. Once you have your usb devices name, you can unplug, close the terminal and repeat the process.&lt;/p&gt;
+
+&lt;p&gt;You can do this with two pis, I have tried. This is where using that Tab command comes in handy.&lt;/p&gt;
+
+&lt;p&gt;If you get a ‘Resource busy’ error, try again but enter the command while the pi is booting up.&lt;/p&gt;
+
+&lt;p&gt;Note: If it is the first time you boot up your pi from a Raspbian image you need to setup raspi-config using an hdmi monitor and keyboard before you use the console cable.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;SSHing into the Pi&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using the terminal you have open with the console cable,  type:&lt;/p&gt;
+
+&lt;p&gt;ifconfig
+This will list the ip address you need to ssh into your pi from your other machine. Open a new terminal window and use the command:&lt;/p&gt;
+
+&lt;p&gt;ssh pi@xxx.xxx.xxx
+In my case I am using an ethernet cable plugged in between my Pi and my ethernet port on my Macbook. Therefore, I will use the eth0 inet addressthat is listed after using ifconfig!&lt;/p&gt;
+
+&lt;p&gt;Once you enter the pi’s password you should be good to go.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TightVNCServer&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;sudo apt-get install tightvncserver
+You are going to need to install tightvncserver on your pi to view the gui (desktop environment) through your main machine. After it is done installing you can run:&lt;/p&gt;
+
+&lt;p&gt;tightvncserver
+and&lt;/p&gt;
+
+&lt;p&gt;vncserver :0 -geometry 1920x1080 -depth 24
+This will create a virtual instance of your pi’s gui.&lt;/p&gt;
+
+&lt;p&gt;You must also download and install tightvncserver on your laptop/computer. You can find a download here.
+I use the java version on my macbook.&lt;/p&gt;
+
+&lt;p&gt;More Documentation on VNC here.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Oct 2015 12:08:25 -0400</pubDate>
+        <link>http://localhost:4000/pi-setup</link>
+        <guid isPermaLink="true">http://localhost:4000/pi-setup</guid>
         
         
         <category>jekyll</category>

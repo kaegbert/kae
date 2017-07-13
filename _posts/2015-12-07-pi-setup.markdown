@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "basic raspberry pi setup"
+date:   2015-10-07 12:08:25 -0400
+categories: jekyll update
+body-class: post-welcome
+image: /img/godmode.png
+
+---
+
+<p></p>
+
+
+
+
+<h1>1. Download Raspbian Wheezy</h1>
+
+This is the webpage where you will find the freshest install of Raspbian Wheezy available. If you have not formatted an SD card for the pi in the past, I recommend looking up a tutorial on how to do it on youtube. You could also use Apple Pi Baker. There are many different examples of how to do this whether you are on Mac, Windows, or Linux. It is quite easy to write a card from the command line.
+
+2. raspi-config
+
+This is a good time to change your password.
+
+This is also quite basic but necessary. Adafruit has a really short and sweet tutorial on how to use raspi-config to setup a lot of different functions. If you plan on using ssh, which we do, you will definitely need to enable it here.
+
+3. Change your Hostname
+How to Change your Hostname.
+
+sudo nano /etc/hostname
+sudo nano /etc/hosts
+sudo /etc/init.d/hostname.sh
+replace ‘raspberrypi’
+
+ctrl + x
+sudo reboot
+
+ after restart:
+hostname --fqd
+4. Setup Console Cable (not required)
+How to use a console cable with Raspberry Pi.
+
+I recommend the console cable as it is easy to use and you don’t need to setup an extra monitor, keyboard, and mouse to work on the pi.
+
+cc
+
+sudo apt-get install screen
+Mac software is built in unless you are using Lion or Mountain Lion.
+Windows – download Putty. Install PL2303 Drivers.
+
+DO NOT attach the Pi’s USB power adapter. If you would rather power the Pi from your USB power adapter then leave the Red lead from the Serial lead un attached.
+
+Open up a terminal…
+
+screen /dev/cu.PL2303-00001004 115200
+​
+Accessing the USB port in the terminal. On a Mac…
+
+Open the terminal then connect the usb lead.
+Enter screen /dev/cu.PL into the terminal.
+The first time you do this, hit tab to autocomplete the name of your port.
+Add 115200 to then end.
+I find most success when you recall the screen /dev command with the up arrow key. Once you have your usb devices name, you can unplug, close the terminal and repeat the process.
+
+You can do this with two pis, I have tried. This is where using that Tab command comes in handy.
+
+If you get a ‘Resource busy’ error, try again but enter the command while the pi is booting up.
+
+Note: If it is the first time you boot up your pi from a Raspbian image you need to setup raspi-config using an hdmi monitor and keyboard before you use the console cable.
+
+5. SSHing into the Pi
+
+Using the terminal you have open with the console cable,  type:
+
+ifconfig
+This will list the ip address you need to ssh into your pi from your other machine. Open a new terminal window and use the command:
+
+ssh pi@xxx.xxx.xxx
+In my case I am using an ethernet cable plugged in between my Pi and my ethernet port on my Macbook. Therefore, I will use the eth0 inet addressthat is listed after using ifconfig!
+
+Once you enter the pi’s password you should be good to go.
+
+6. TightVNCServer
+
+sudo apt-get install tightvncserver
+You are going to need to install tightvncserver on your pi to view the gui (desktop environment) through your main machine. After it is done installing you can run:
+
+tightvncserver
+and
+
+vncserver :0 -geometry 1920x1080 -depth 24
+This will create a virtual instance of your pi’s gui.
+
+You must also download and install tightvncserver on your laptop/computer. You can find a download here.
+I use the java version on my macbook.
+
+More Documentation on VNC here.
