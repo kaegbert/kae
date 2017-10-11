@@ -1,8 +1,9 @@
 ---
 layout: default
-title: still
 permalink: /still/
 ---
+
+<!-- title: still -->
 
 <div class="home">
 </div>

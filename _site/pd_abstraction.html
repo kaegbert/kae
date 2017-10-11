@@ -10,7 +10,7 @@
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/sound/">
+  <link rel="canonical" href="http://localhost:4000/pd_abstraction">
   <link rel="alternate" type="application/rss+xml" title="kevin egbert" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -193,27 +193,22 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="post">
+        <p>This blog post is to easily explain how to use abstractions in Pure Data.</p>
 
-  <header class="post-header">
-    <h1 class="post-title"></h1>
-    <p class="post-meta"></p>
-  </header>
+<p>Abstractions and sub-patches will make it easier to compartmentalize a complex patch and break it down into smaller parts.</p>
 
-  <article class="post-content">
-    <p><strong><em>Introduction to Sound Fall 2014</em></strong></p>
+<p>An abstraction is a Pd patch that can be used as an object in another Pd patch.</p>
 
-<iframe width="600" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179986740&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<p>To create an abstraction:</p>
+<ol>
+  <li>Create a Pd patch.</li>
+  <li>Save the patch in specificed location.</li>
+  <li>Call an instance of that object in your new patch.</li>
+</ol>
 
-<p><br /></p>
+<p>The abstraction must be saved in a place where Pd can find it. If you navigate to Pd-extended &gt; Preferences, you can see a list of paths that Pure Data is searching through. You can either specify a new path or use one of the paths listed here. For Mac users recommend using Users/username/Library/Pd.</p>
 
-<!-- PureData / Processing Theremins -->
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/XOPjLZlwPA8" frameborder="0" allowfullscreen=""></iframe>
-
-  </article>
-
-</div>
+<p>https://at.or.at/hans/pd/objects.html</p>
 
       </div>
     </div>

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: drawings
 permalink: /drawings/
 ---
+
+<!-- title: drawings -->
 
 <!-- <div class="img_row">
   <img class="col two" src="/img/kae.jpg"/>

@@ -5,9 +5,39 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jul 2017 17:42:55 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Jul 2017 17:42:55 -0400</lastBuildDate>
+    <pubDate>Mon, 07 Aug 2017 14:00:42 -0400</pubDate>
+    <lastBuildDate>Mon, 07 Aug 2017 14:00:42 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Abstractions in PureData</title>
+        <description>&lt;p&gt;This blog post is to easily explain how to use abstractions in Pure Data.&lt;/p&gt;
+
+&lt;p&gt;Abstractions and sub-patches will make it easier to compartmentalize a complex patch and break it down into smaller parts.&lt;/p&gt;
+
+&lt;p&gt;An abstraction is a Pd patch that can be used as an object in another Pd patch.&lt;/p&gt;
+
+&lt;p&gt;To create an abstraction:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a Pd patch.&lt;/li&gt;
+  &lt;li&gt;Save the patch in specificed location.&lt;/li&gt;
+  &lt;li&gt;Call an instance of that object in your new patch.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The abstraction must be saved in a place where Pd can find it. If you navigate to Pd-extended &amp;gt; Preferences, you can see a list of paths that Pure Data is searching through. You can either specify a new path or use one of the paths listed here. For Mac users recommend using Users/username/Library/Pd.&lt;/p&gt;
+
+&lt;p&gt;https://at.or.at/hans/pd/objects.html&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Aug 2017 02:34:25 -0400</pubDate>
+        <link>http://localhost:4000/pd-abstraction</link>
+        <guid isPermaLink="true">http://localhost:4000/pd-abstraction</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>BAM Digital Arts Studio 1/2</title>

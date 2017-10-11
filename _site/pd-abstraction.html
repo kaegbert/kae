@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>kevin egbert</title>
-  <meta name="description" content="">
+  <title>Abstractions in PureData</title>
+  <meta name="description" content="This blog post is to easily explain how to use abstractions in Pure Data.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/sound/">
+  <link rel="canonical" href="http://localhost:4000/pd-abstraction">
   <link rel="alternate" type="application/rss+xml" title="kevin egbert" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -196,20 +196,27 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
-    <p class="post-meta"></p>
+    <h1 class="post-title">Abstractions in PureData</h1>
+    <p class="post-meta">August 07, 2017</p>
   </header>
 
   <article class="post-content">
-    <p><strong><em>Introduction to Sound Fall 2014</em></strong></p>
+    <p>This blog post is to easily explain how to use abstractions in Pure Data.</p>
 
-<iframe width="600" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179986740&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<p>Abstractions and sub-patches will make it easier to compartmentalize a complex patch and break it down into smaller parts.</p>
 
-<p><br /></p>
+<p>An abstraction is a Pd patch that can be used as an object in another Pd patch.</p>
 
-<!-- PureData / Processing Theremins -->
+<p>To create an abstraction:</p>
+<ol>
+  <li>Create a Pd patch.</li>
+  <li>Save the patch in specificed location.</li>
+  <li>Call an instance of that object in your new patch.</li>
+</ol>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/XOPjLZlwPA8" frameborder="0" allowfullscreen=""></iframe>
+<p>The abstraction must be saved in a place where Pd can find it. If you navigate to Pd-extended &gt; Preferences, you can see a list of paths that Pure Data is searching through. You can either specify a new path or use one of the paths listed here. For Mac users recommend using Users/username/Library/Pd.</p>
+
+<p>https://at.or.at/hans/pd/objects.html</p>
 
   </article>
 

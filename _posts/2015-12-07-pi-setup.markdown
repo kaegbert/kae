@@ -4,7 +4,7 @@ title:  "basic raspberry pi setup"
 date:   2015-10-07 12:08:25 -0400
 categories: jekyll update
 body-class: post-welcome
-image: /img/godmode.png
+image: /img/rpi.png
 
 ---
 
