@@ -8,10 +8,10 @@ permalink: /about/
   <img class="col two" src="/img/kae.jpg"/>
 </div> -->
 
-<img src="{{ site.baseurl }}/img/about_main.jpg">
+<img src="{{ site.baseurl }}/img/portrait.jpg">
 
+<!-- <img src="{{ site.baseurl }}/img/about_main.jpg"> -->
 
-<br>
 
 
 <!-- <h1>currently.</h1> -->

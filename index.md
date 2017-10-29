@@ -35,6 +35,10 @@ layout: default
 <div class="item"><img src="img/rye.png"></div>
 </a>
 
+<a href="http://kevinegbert.com/tsm">
+<div class="item"><img src="img/shadow1.jpg"></div>
+</a>
+
 <a href="http://kevinegbert.com/sifaka">
 <div class="item"><img src="img/sifaka.png"></div>
 </a>
@@ -45,6 +49,10 @@ layout: default
 
 <a href="http://kevinegbert.com/isometric">
 <div class="item"><img src="img/iso1.jpg"></div>
+</a>
+
+<a href="http://kevinegbert.com/tv">
+<div class="item"><img src="img/tv1.jpg"></div>
 </a>
 
 
