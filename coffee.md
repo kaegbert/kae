@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Come Have Coffee with Us
+title: Come Have Coffee With Us
 ---
 
 <iframe src="https://player.vimeo.com/video/203753288" width="720" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
