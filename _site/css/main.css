@@ -27,7 +27,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 13px/1.5 "Source Sans Pro", "Book Antiqua", Palatino, serif;
+  font: 400 13px/1.5 "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfe;
   -webkit-text-size-adjust: 100%;
