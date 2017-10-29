@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: Just Like You Imagined
 ---
 <br>
 <br>
