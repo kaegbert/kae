@@ -1,7 +1,9 @@
 ---
 layout: page
-permalink: /photo/
+title: photo
+permalink: /blog/
 ---
+<!-- permalink: /photo/ -->
 
 <img src="{{ site.baseurl }}/img/beach.jpg">
 

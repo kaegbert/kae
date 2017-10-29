@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Aug 2017 14:00:42 -0400</pubDate>
-    <lastBuildDate>Mon, 07 Aug 2017 14:00:42 -0400</lastBuildDate>
+    <pubDate>Sun, 29 Oct 2017 12:21:54 -0400</pubDate>
+    <lastBuildDate>Sun, 29 Oct 2017 12:21:54 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -217,7 +217,7 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
       <item>
         <title>limbo</title>
         <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;an uncertain period of awaiting a decision or resolution; an intermediate state or condition.&lt;/p&gt;
+&lt;p&gt;...an uncertain period of awaiting a decision or resolution; an intermediate state or condition.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;img_row&quot;&gt;
 &lt;img src=&quot;/img/limbo.gif&quot; /&gt;

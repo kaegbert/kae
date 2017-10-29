@@ -43,6 +43,10 @@ layout: default
 <div class="item"><img src="img/jlyi.png"></div>
 </a>
 
+<a href="http://kevinegbert.com/isometric">
+<div class="item"><img src="img/iso1.jpg"></div>
+</a>
+
 
 
 
