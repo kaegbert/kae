@@ -1,7 +1,5 @@
 ---
 layout: page
-title: tiny shadow monsters
-permalink: /tsm/
 ---
 <img src="{{ site.baseurl }}/img/shadow1.jpg">
 
