@@ -2,8 +2,7 @@
 layout: page
 
 ---
-<br>
-<br>
+<h2>Just Like You Imagined</h2>
 Super 8 film manipulated with circuit bent analog video hardware. Post-processing done using digital editing software.
 <br>
 <br>
