@@ -4,7 +4,7 @@ title:  "just like you imagined"
 date:   2015-12-11 16:04:25 -0400
 categories: jekyll update
 body-class: post-welcome
-image: /img/godmode.png
+image: /img/jlyi.png
 
 ---
 <br>
