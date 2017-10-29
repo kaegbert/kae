@@ -1,7 +1,12 @@
 ---
-layout: page
----
+layout: post
+title:  "Come Have Coffee With Us"
+date:   2017-04-12 02:34:25 -0400
+categories: jekyll update
+body-class: post-welcome
+image: /img/coffee.jpg
 
+---
 <iframe src="https://player.vimeo.com/video/203753288" width="720" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>
 <link href="/css/styles.css" rel="stylesheet" />
