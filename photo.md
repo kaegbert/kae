@@ -1,7 +1,7 @@
 ---
 layout: page
-title: still
-permalink: /still/
+title: photo
+permalink: /photo/
 ---
 <img src="{{ site.baseurl }}/img/beach.jpg">
 

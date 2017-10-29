@@ -1,39 +1,24 @@
 ---
-layout: default
+layout: page
+title: still
 permalink: /still/
 ---
+<img src="{{ site.baseurl }}/img/beach.jpg">
 
-<!-- title: still -->
+<img src="{{ site.baseurl }}/img/blue.png">
 
-<div class="home">
-</div>
+<img src="{{ site.baseurl }}/img/black.jpg">
 
-  <body>
+<img src="{{ site.baseurl }}/img/john.jpg">
 
-<div class="item"><img src="{{ site.baseurl }}/img/glass.gif"></div>
-<br>
+<img src="{{ site.baseurl }}/img/pup.jpg">
 
- <div class="item"><img src="{{ site.baseurl }}/img/glass1.jpg"></div>
- <br>
+<img src="{{ site.baseurl }}/img/roo.png">
 
+<img src="{{ site.baseurl }}/img/santanoni.jpg">
 
- <div class="item"><img src="{{ site.baseurl }}/img/edit3.jpg"></div>
- <br>
+<img src="{{ site.baseurl }}/img/boston.png">
 
+<img src="{{ site.baseurl }}/img/noodle.jpg">
 
- <div class="item"><img src="{{ site.baseurl }}/img/edit4.jpg"></div>
- <br>
-
- <div class="item"><img src="{{ site.baseurl }}/img/glass.jpg"></div>
- <br>
-
-
- <div class="item"><img src="{{ site.baseurl }}/img/party.jpg"></div>
- <br>
-
-
-
-
-
-
-  </body>
+<img src="{{ site.baseurl }}/img/koi.jpg">
