@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Oct 2017 14:44:24 -0400</pubDate>
-    <lastBuildDate>Sun, 29 Oct 2017 14:44:24 -0400</lastBuildDate>
+    <pubDate>Sun, 29 Oct 2017 14:53:06 -0400</pubDate>
+    <lastBuildDate>Sun, 29 Oct 2017 14:53:06 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -88,6 +88,67 @@ The audio piece below is a segment of the composition accompanying the installat
         <pubDate>Mon, 15 May 2017 02:34:25 -0400</pubDate>
         <link>http://localhost:4000/glass</link>
         <guid isPermaLink="true">http://localhost:4000/glass</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Immersive Birdwatching</title>
+        <description>&lt;div class=&quot;home&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Immersive Birdwatching&lt;/em&gt;&lt;/strong&gt; is a project that opens up conversation surrounding wearable technology that is supposed to empower the user to continue their research hands free. The dysfunctional interface brings into question our attempts at creating interfaces that enable us to further our research and extend our experiences with the natural environment and our human relationships to it.&lt;/p&gt;
+
+&lt;p&gt;The headpiece utilizes two shotgun microphones interfaced with a handheld audio recorder. The microphones are placed at ear distance apart to create three dimensional stereo audio recordings. Binoculars are attached to a beer drinking helmet that allows for hands free magnification. Hot glued leaves conceal you when you need it most.&lt;/p&gt;
+
+&lt;body&gt;
+
+  &lt;img src=&quot;/img/birdwatching3.gif&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+&lt;!-- &lt;img align=&quot;right&quot; src=&quot;img/blue.png&quot;&gt; --&gt;
+&lt;link href=&quot;css/styles.css&quot; rel=&quot;stylesheet&quot; /&gt;
+
+ &lt;div class=&quot;masonry&quot;&gt;
+
+  &lt;img src=&quot;/img/birdwatching2.gif&quot; /&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;img src=&quot;/img/birdwatching1.gif&quot; /&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;img src=&quot;/img/birdwatching4.gif&quot; /&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;img src=&quot;/img/birdwatching5.gif&quot; /&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;!-- &lt;img src=&quot;/img/ib1.png&quot;&gt; --&gt;
+
+
+
+&lt;/div&gt;
+
+
+  &lt;/body&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297569453&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;!-- &lt;h1&gt;currently.&lt;/h1&gt; --&gt;
+&lt;!-- &lt;h2&gt;Empowering each other.&lt;/h2&gt; --&gt;
+&lt;!-- &lt;h3&gt; --&gt;
+
+&lt;!-- [resume](http://kevinegbert.com/resume.pdf) --&gt;
+</description>
+        <pubDate>Fri, 11 Nov 2016 13:28:25 -0500</pubDate>
+        <link>http://localhost:4000/Immersive-Birdwatching</link>
+        <guid isPermaLink="true">http://localhost:4000/Immersive-Birdwatching</guid>
         
         
         <category>jekyll</category>
@@ -290,9 +351,7 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
     
       <item>
         <title>just like you imagined</title>
-        <description>&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-Super 8 film manipulated with circuit bent analog video hardware. Post-processing done using digital editing software.
+        <description>&lt;p&gt;Super 8 film manipulated with circuit bent analog video hardware. Post-processing done using digital editing software.
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/148065304&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -429,6 +488,21 @@ I use the java version on my macbook.&lt;/p&gt;
         <pubDate>Wed, 07 Oct 2015 12:08:25 -0400</pubDate>
         <link>http://localhost:4000/pi-setup</link>
         <guid isPermaLink="true">http://localhost:4000/pi-setup</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>sifaka</title>
+        <description>&lt;iframe width=&quot;100%&quot; height=&quot;700&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179986740&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 04 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/sifaka</link>
+        <guid isPermaLink="true">http://localhost:4000/sifaka</guid>
         
         
         <category>jekyll</category>

@@ -27,7 +27,7 @@ layout: default
 <div class="item"><img src="img/1.jpg"></div>
 </a> -->
 
-<a href="http://kevinegbert.com/birdwatching">
+<a href="http://kevinegbert.com/Immersive-birdwatching">
 <div class="item"><img src="img/birdwatching3.gif"></div>
 </a>
 
