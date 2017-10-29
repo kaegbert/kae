@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Oct 2017 14:38:52 -0400</pubDate>
-    <lastBuildDate>Sun, 29 Oct 2017 14:38:52 -0400</lastBuildDate>
+    <pubDate>Sun, 29 Oct 2017 14:44:24 -0400</pubDate>
+    <lastBuildDate>Sun, 29 Oct 2017 14:44:24 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -31,6 +31,63 @@
         <pubDate>Mon, 07 Aug 2017 02:34:25 -0400</pubDate>
         <link>http://localhost:4000/pd-abstraction</link>
         <guid isPermaLink="true">http://localhost:4000/pd-abstraction</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Relative Noise, Dancing Glass</title>
+        <description>&lt;div class=&quot;home&quot;&gt;
+&lt;/div&gt;
+
+&lt;body&gt;
+
+    &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/glass.gif&quot; /&gt;&lt;/div&gt;
+
+
+I completed my senior thesis on communication noise and its effects on mediated communication in part to acquire my BA in New Media @ SUNY Purchase. &lt;a href=&quot;http://kevinegbert.com/Relative_Noise.pdf&quot;&gt;You can read it here.&lt;/a&gt; The photos below are of the accompanying exhibition. I find windows and glass beautiful and that's only part of the reason why I choose to work with them as sound generating and sculpting material. I think that glass, a flat and invisible channel that is often less the focus then the light it lets in, acts as an ideal material to begin talking about communication channels and as a metaphor for different media forms.
+&lt;br /&gt;
+&lt;br /&gt;
+The audio piece below is a segment of the composition accompanying the installation. Sound source material was recorded using contact mics attached to glass window frames that would pick up rain and the passerby. The sound was then played back through the frames using transducers in the gallery space.
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;link href=&quot;css/styles.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346349234&amp;amp;color=%23ff9900&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_reposts=false&amp;amp;show_teaser=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+ &lt;div class=&quot;masonry&quot;&gt;
+&lt;!-- image 1 --&gt;
+ &lt;!-- &lt;a href=&quot;https://www.w3schools.com&quot;&gt; --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/glass1.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+&lt;!-- image 2 --&gt;
+ &lt;!-- &lt;a href=&quot;https://www.w3schools.com&quot;&gt; --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/edit3.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+ &lt;!-- &lt;a href=&quot;https://www.w3schools.com&quot;&gt; --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/edit4.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+ &lt;!-- &lt;a href=&quot;https://www.w3schools.com&quot;&gt; --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/glass.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+ &lt;!-- &lt;a href=&quot;https://www.w3schools.com&quot;&gt; --&gt;
+ &lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;img/party.jpg&quot; /&gt;&lt;/div&gt;
+ &lt;!-- &lt;/a&gt; --&gt;
+
+&lt;/div&gt;
+
+
+  &lt;/body&gt;
+</description>
+        <pubDate>Mon, 15 May 2017 02:34:25 -0400</pubDate>
+        <link>http://localhost:4000/glass</link>
+        <guid isPermaLink="true">http://localhost:4000/glass</guid>
         
         
         <category>jekyll</category>
@@ -107,6 +164,23 @@ IMAGES. --&gt;
         <pubDate>Mon, 25 Jul 2016 02:34:25 -0400</pubDate>
         <link>http://localhost:4000/BAM-sound-walk</link>
         <guid isPermaLink="true">http://localhost:4000/BAM-sound-walk</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>rye 3/11/16</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251595004&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 11 Mar 2016 01:34:25 -0500</pubDate>
+        <link>http://localhost:4000/rye</link>
+        <guid isPermaLink="true">http://localhost:4000/rye</guid>
         
         
         <category>jekyll</category>
