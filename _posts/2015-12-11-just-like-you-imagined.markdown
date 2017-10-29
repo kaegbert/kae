@@ -7,8 +7,6 @@ body-class: post-welcome
 image: /img/jlyi.png
 
 ---
-<br>
-<br>
 Super 8 film manipulated with circuit bent analog video hardware. Post-processing done using digital editing software.
 <br>
 <br>
