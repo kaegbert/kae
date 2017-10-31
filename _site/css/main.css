@@ -27,7 +27,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 13px/1.5 "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 13px/1.5 "Source Sans Pro", "Book Antiqua", Palatino, serif;
   color: #111;
   background-color: #fdfdfe;
   -webkit-text-size-adjust: 100%;
@@ -128,16 +128,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(900px - (30px * 2));
+  max-width: calc(900px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(900px - (30px));
+      max-width: calc(900px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -188,7 +188,7 @@ pre {
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
+      margin-right: 40px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;

@@ -3,9 +3,11 @@ layout: page
 title: blog
 permalink: /blog/
 ---
+<link href="css/styles.css" rel="stylesheet" />
 
 
 <div class="home">
+
 
 <link href="/css/styles2.css" rel="stylesheet" />
 

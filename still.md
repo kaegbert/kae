@@ -3,6 +3,7 @@ layout: page
 title: still
 permalink: /still/
 ---
+
 <img src="{{ site.baseurl }}/img/beach.jpg">
 
 <img src="{{ site.baseurl }}/img/blue.png">

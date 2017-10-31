@@ -7,11 +7,22 @@
 .item { /* Masonry bricks or child elements */
     background-color: #eee;
     display: inline-block;
-    margin: 0 0 1em;
+    /*margin: 0 0 1em;*/
     width: 100%;
+    /*opacity: 0.5;*/
 
 
 }
+
+a:hover {
+    color: white;
+    background-color: orange;
+}
+
+/*a:hover {
+    opacity: 0.75;
+}*/
+
 
 body {
 	background-color: #ffffff;
@@ -26,6 +37,29 @@ body {
 /*	background-image: url("images/s.png");
 
 */}
+
+
+#wrapper .text {
+  color: white;
+  background-color: black;
+/*position:relative;*/
+bottom:50px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+background-color: black;
+
+}
+
+.text {
+  padding: 5px;
+  font-size: 22px;
+  /*background-color: aliceblue;*/
+  font-family: Source Sans Pro;
+}
 
 
 /*.poem {
@@ -193,8 +227,6 @@ a:link{
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }*/
-
-
 
 
 /*Image Hover Opacity*/
