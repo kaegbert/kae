@@ -175,6 +175,9 @@
     font-size: 20px;
 }
 
+.text{
+  // padding: 5px;
+}
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -185,15 +188,16 @@
 }
 
 .post-meta {
+  // padding-left: 5px;
     font-size: $small-font-size;
     color: $grey-color;
 }
 
 .post-link {
+  // padding-left: 5px;
     display: block;
     font-size: 14px;
 }
-
 
 
 /**

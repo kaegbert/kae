@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: default
 title: blog
 permalink: /blog/
 ---
-<link href="css/styles.css" rel="stylesheet" />
 
 
 <div class="home">
