@@ -27,7 +27,7 @@ layout: default
 <div id="wrapper">
 <a href="http://kevinegbert.com/BAM-sound-walk">
 <div class="item"><img src="img/bam.jpg" class="hover" /></div>
-<p class="text">BAM Media Labs 1/2 (2016)</p></a>
+<p class="text">BAM Digital Arts Studio 1/2 (2016)</p></a>
 </div>
 
 <!--
