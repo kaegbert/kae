@@ -48,7 +48,7 @@ layout: default
 
 <div id="wrapper">
 <a href="http://kevinegbert.com/tsm">
-<div class="item"><img src="img/shadow1.jpg" class="hover" /></div>
+<div class="item"><img src="img/shadow2.jpg" class="hover" /></div>
 <p class="text">Tiny Shadow Monsters (2015)</p></a>
 </div>
 
