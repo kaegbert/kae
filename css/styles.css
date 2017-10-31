@@ -1,5 +1,5 @@
 .masonry { /* Masonry container */
-    column-count: 1;
+    column-count: 2;
     column-gap: 1em;
     /*margin: 15px;*/
 }
