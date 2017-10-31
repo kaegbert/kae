@@ -40,8 +40,8 @@ body {
 
 
 #wrapper .text {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 /*position:relative;*/
 bottom:250px;
 left:0px;
@@ -50,7 +50,7 @@ visibility:hidden;
 
 #wrapper:hover .text {
 visibility:visible;
-background-color: black;
+background-color: white;
 
 }
 
