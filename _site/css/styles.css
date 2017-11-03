@@ -1,5 +1,5 @@
 .masonry { /* Masonry container */
-    column-count: 1;
+    column-count: 2;
     column-gap: 1em;
     /*margin: 15px;*/
 }
@@ -7,7 +7,7 @@
 .item { /* Masonry bricks or child elements */
     background-color: #eee;
     display: inline-block;
-    /*margin: 0 0 1em;*/
+    margin: 0 0 1em;
     width: 100%;
     /*opacity: 0.5;*/
 
@@ -43,7 +43,7 @@ body {
   color: white;
   background-color: black;
 /*position:relative;*/
-bottom:250px;
+bottom:0px;
 left:0px;
 visibility:hidden;
 }
@@ -56,9 +56,9 @@ background-color: black;
 
 .text {
   padding: 5px;
-  font-size: 22px;
+  font-size: 14px;
   /*background-color: aliceblue;*/
-  font-family: Source Sans Pro;
+  /*font-family: Source Sans Pro;*/
 }
 
 
@@ -73,10 +73,10 @@ height: 100%;
 	background-image: url("images/kev.jpg");
 }*/
 
-#mytext {
+/*#mytext {
 	font-family: 'Arvo', serif;
 	color: #FFFFFF;
-}
+}*/
 
 /*Homepage Links*/
 /*h1 {

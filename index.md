@@ -43,7 +43,7 @@ layout: default
 <div id="wrapper">
 <a href="http://kevinegbert.com/rye">
 <div class="item"><img src="img/rye.png" class="hover" /></div>
-<p class="text">rye 3/11 (2016)</p></a>
+<p class="text">Rye 3/11 (2016)</p></a>
 </div>
 
 <div id="wrapper">
@@ -53,21 +53,9 @@ layout: default
 </div>
 
 <div id="wrapper">
-<a href="http://kevinegbert.com/sifaka">
-<div class="item"><img src="img/sifaka.png" class="hover" /></div>
-<p class="text">Sifaka (2014)</p></a>
-</div>
-
-<div id="wrapper">
 <a href="http://kevinegbert.com/just-like-you-imagined">
 <div class="item"><img src="img/jlyi.png" class="hover" /></div>
 <p class="text">Just Like You Imagined (2016)</p></a>
-</div>
-
-<div id="wrapper">
-<a href="https://alohamachine.bandcamp.com/">
-<div class="item"><img src="img/mice.jpg" class="hover" /></div>
-<p class="text">Soothouse (2017)</p></a>
 </div>
 
 <div id="wrapper">
@@ -76,13 +64,28 @@ layout: default
 <p class="text">Isometric Projection Studies (2017)</p></a>
 </div>
 
+
+<div id="wrapper">
+<a href="https://alohamachine.bandcamp.com/">
+<div class="item"><img src="img/mice.jpg" class="hover" /></div>
+<p class="text">Soothouse (2017)</p></a>
+</div>
+
+
 <div id="wrapper">
 <a href="http://kevinegbert.com/tv">
 <div class="item"><img src="img/tv1.jpg" class="hover" /></div>
 <p class="text">TV (2015)</p></a>
 </div>
 
+<div id="wrapper">
+<a href="http://kevinegbert.com/sifaka">
+<div class="item"><img src="img/sifaka.png" class="hover" /></div>
+<p class="text">Sifaka (2014)</p></a>
 </div>
+
+</div>
+
 
 
 
