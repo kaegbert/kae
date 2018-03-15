@@ -1,7 +1,5 @@
 ---
 layout: default
-title: about
-permalink: /about/
 ---
 
 Three fundamental breaks in music notation in all of western music history.
