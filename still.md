@@ -20,6 +20,4 @@ permalink: /still/
 
 <img src="{{ site.baseurl }}/img/boston.png">
 
-<img src="{{ site.baseurl }}/img/noodle.jpg">
-
 <img src="{{ site.baseurl }}/img/koi.jpg">
