@@ -7,7 +7,8 @@ layout: default
   <body>
 
   <div id="wrapper">
-  <a href="http://kevinegbert.com/glass">
+  <!-- <a href="http://kevinegbert.com/glass"> -->
+  <a href="{{ site.baseurl }}/glass">
   <div class="item"><img src="img/glass.jpg" class="hover" /></div>
   <p class="text">Relative Noise, Dancing Glass (2017)</p></a>
   </div>
