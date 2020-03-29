@@ -11,7 +11,9 @@ permalink: /classes/
 <img src="{{ site.baseurl }}/img/kae.jpg"> -->
 
 
-[Special Projects in Tiny Computing - Fall 2016](http://kevinegbert.com/sptc)
+[Special Projects in Tiny Computing - Fall 2016]({{ site.baseurl }}/classes/sptc.md)
+
+
 
 [Dark Ecology Studio - Fall 2016](http://kevinegbert.com/des)
 

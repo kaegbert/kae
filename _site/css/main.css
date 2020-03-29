@@ -214,7 +214,6 @@ pre {
         clear: both;
         display: none; }
       .site-nav:hover .trigger {
-        display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
         display: block;

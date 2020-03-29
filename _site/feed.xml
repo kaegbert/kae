@@ -5,9 +5,9 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Mar 2018 21:56:30 -0400</pubDate>
-    <lastBuildDate>Thu, 15 Mar 2018 21:56:30 -0400</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Sat, 28 Mar 2020 18:31:15 -0600</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2020 18:31:15 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Abstractions in PureData</title>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;https://at.or.at/hans/pd/objects.html&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Aug 2017 02:34:25 -0400</pubDate>
+        <pubDate>Mon, 07 Aug 2017 00:34:25 -0600</pubDate>
         <link>http://localhost:4000/pd-abstraction</link>
         <guid isPermaLink="true">http://localhost:4000/pd-abstraction</guid>
         
@@ -47,7 +47,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/img/iso3.jpg&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 22 Jun 2017 02:34:25 -0400</pubDate>
+        <pubDate>Thu, 22 Jun 2017 00:34:25 -0600</pubDate>
         <link>http://localhost:4000/isometric</link>
         <guid isPermaLink="true">http://localhost:4000/isometric</guid>
         
@@ -104,7 +104,7 @@ The audio piece below is a segment of the composition accompanying the installat
 
   &lt;/body&gt;
 </description>
-        <pubDate>Mon, 15 May 2017 02:34:25 -0400</pubDate>
+        <pubDate>Mon, 15 May 2017 00:34:25 -0600</pubDate>
         <link>http://localhost:4000/glass</link>
         <guid isPermaLink="true">http://localhost:4000/glass</guid>
         
@@ -131,7 +131,7 @@ The audio piece below is a segment of the composition accompanying the installat
 When we recognize that we not only need to care for ourselves and those close to us, that we need to care for the relationships we build with others, we begin to treat ourselves and others with more respect. We begin to listen with the intent to understand rather than to reply. We begin to make stronger relationships, one where there is three parties, not two.
 &lt;/p&gt;&lt;/div&gt;&lt;/body&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 12 Apr 2017 02:34:25 -0400</pubDate>
+        <pubDate>Wed, 12 Apr 2017 00:34:25 -0600</pubDate>
         <link>http://localhost:4000/coffee</link>
         <guid isPermaLink="true">http://localhost:4000/coffee</guid>
         
@@ -192,7 +192,7 @@ When we recognize that we not only need to care for ourselves and those close to
 
 &lt;!-- [resume](http://kevinegbert.com/resume.pdf) --&gt;
 </description>
-        <pubDate>Fri, 11 Nov 2016 13:28:25 -0500</pubDate>
+        <pubDate>Fri, 11 Nov 2016 11:28:25 -0700</pubDate>
         <link>http://localhost:4000/Immersive-Birdwatching</link>
         <guid isPermaLink="true">http://localhost:4000/Immersive-Birdwatching</guid>
         
@@ -268,7 +268,7 @@ Here are some recordings that we made
 IMAGES. --&gt;
 &lt;/p&gt;&lt;/body&gt;
 </description>
-        <pubDate>Mon, 25 Jul 2016 02:34:25 -0400</pubDate>
+        <pubDate>Mon, 25 Jul 2016 00:34:25 -0600</pubDate>
         <link>http://localhost:4000/BAM-sound-walk</link>
         <guid isPermaLink="true">http://localhost:4000/BAM-sound-walk</guid>
         
@@ -285,7 +285,7 @@ IMAGES. --&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251595004&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Fri, 11 Mar 2016 01:34:25 -0500</pubDate>
+        <pubDate>Thu, 10 Mar 2016 23:34:25 -0700</pubDate>
         <link>http://localhost:4000/rye</link>
         <guid isPermaLink="true">http://localhost:4000/rye</guid>
         
@@ -384,7 +384,7 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 |
 [; pd dsp 1(&lt;/p&gt;
 </description>
-        <pubDate>Wed, 23 Dec 2015 01:34:25 -0500</pubDate>
+        <pubDate>Tue, 22 Dec 2015 23:34:25 -0700</pubDate>
         <link>http://localhost:4000/pi-arduino-audio-processor</link>
         <guid isPermaLink="true">http://localhost:4000/pi-arduino-audio-processor</guid>
         
@@ -402,7 +402,7 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/148065304&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Fri, 11 Dec 2015 15:04:25 -0500</pubDate>
+        <pubDate>Fri, 11 Dec 2015 13:04:25 -0700</pubDate>
         <link>http://localhost:4000/just-like-you-imagined</link>
         <guid isPermaLink="true">http://localhost:4000/just-like-you-imagined</guid>
         
@@ -424,7 +424,7 @@ aplay -D plughw:0 ~/rectest.wav&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 20 Oct 2015 23:04:25 -0400</pubDate>
+        <pubDate>Tue, 20 Oct 2015 21:04:25 -0600</pubDate>
         <link>http://localhost:4000/limbo</link>
         <guid isPermaLink="true">http://localhost:4000/limbo</guid>
         

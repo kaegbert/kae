@@ -14,10 +14,10 @@
 
 }
 
-a:hover {
+/* a:hover {
     color: white;
     background-color: #6682af;
-}
+} */
 
 /*a:hover {
     opacity: 0.75;
@@ -39,27 +39,27 @@ body {
 */}
 
 
-#wrapper .text {
+/* #wrapper .text {
   color: white;
   background-color: black;
-/*position:relative;*/
 bottom:0px;
 left:0px;
 visibility:hidden;
-}
+} */
 
-#wrapper:hover .text {
+/* #wrapper:hover .text {
 visibility:visible;
 background-color: black;
 
-}
+} */
 
 .text {
   padding: 5px;
   font-size: 14px;
+  }
   /*background-color: aliceblue;*/
   /*font-family: Source Sans Pro;*/
-}
+
 
 
 /*.poem {
