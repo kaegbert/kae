@@ -8,9 +8,9 @@ permalink: /blog/
 <div class="home">
 
 
-<link href="/css/styles2.css" rel="stylesheet" />
+<link href="/css/styles.css" rel="stylesheet" />
 
- <div class="masonry">
+ <!-- <div class="masonry"> -->
 
 
   <!-- <h1 class="page-heading">Posts</h1> -->
@@ -20,14 +20,15 @@ permalink: /blog/
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
-        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"></a>
-      </li>
+          <!-- ENABLE IMAGES -->
+        <!-- <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"></a> -->
+      <!-- </li> -->
     {% endfor %}
-  </ul>
+  <!-- </ul> -->
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
-</div>
+<!-- </div> -->
 
 <!-- <blockquote>
   <p>A sample blockquote.</p>
